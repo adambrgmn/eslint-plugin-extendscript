@@ -1,0 +1,29 @@
+{
+  "name": "eslint-plugin-extendscript",
+  "version": "0.0.0-semantically-released",
+  "description": "Mainly environment variables for Adobes Extendscript",
+  "main": "dist/index.js",
+  "repository": "git@github.com:adambrgmn/eslint-plugin-extendscript.git",
+  "author": "Adam Bergman <adam@fransvilhelm.com>",
+  "license": "MIT",
+  "keywords": ["eslint"],
+  "scripts": {
+    "build": "frans-scripts build",
+    "test": "frans-scripts test",
+    "lint": "frans-scripts lint",
+    "format": "frans-scripts format",
+    "validate": "frans-scripts validate",
+    "add-contributor": "frans-scripts contributors add",
+    "precommit": "frans-scripts precommit",
+    "travis-after-success": "frans-scripts travis-after-success"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^2.1.0",
+    "frans-scripts": "^1.0.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
