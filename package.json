@@ -6,7 +6,9 @@
   "repository": "git@github.com:adambrgmn/eslint-plugin-extendscript.git",
   "author": "Adam Bergman <adam@fransvilhelm.com>",
   "license": "MIT",
-  "keywords": ["eslint"],
+  "keywords": [
+    "eslint"
+  ],
   "scripts": {
     "build": "frans-scripts build",
     "test": "frans-scripts test",
@@ -24,7 +26,8 @@
     "frans-scripts": "^1.0.1",
     "meow": "^4.0.0",
     "ora": "^1.3.0",
-    "rimraf": "^2.6.2"
+    "rimraf": "^2.6.2",
+    "xml2js": "^0.4.19"
   },
   "config": {
     "commitizen": {

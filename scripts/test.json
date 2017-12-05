@@ -1,0 +1,1697 @@
+{
+  "base": {
+    "$": false,
+    "alert": false,
+    "Array": false,
+    "Boolean": false,
+    "confirm": false,
+    "Date": false,
+    "decodeURI": false,
+    "decodeURIComponent": false,
+    "encodeURI": false,
+    "encodeURIComponent": false,
+    "Error": false,
+    "escape": false,
+    "eval": false,
+    "File": false,
+    "Folder": false,
+    "Function": false,
+    "Infinity": false,
+    "isFinite": false,
+    "isNaN": false,
+    "isXMLName": false,
+    "localize": false,
+    "Math": false,
+    "Namespace": false,
+    "NaN": false,
+    "Number": false,
+    "Object": false,
+    "parseFloat": false,
+    "parseInt": false,
+    "prompt": false,
+    "QName": false,
+    "Reflection": false,
+    "ReflectionInfo": false,
+    "RegExp": false,
+    "setDefaultXMLNamespace": false,
+    "Socket": false,
+    "String": false,
+    "undefined": false,
+    "unescape": false,
+    "uneval": false,
+    "UnitValue": false,
+    "XML": false,
+    "XMLList": false
+  },
+  "indesign": {
+    $.writeln("AcrobatCompatibility = " + typeof AcrobatCompatibility)
+    $.writeln("AddPageOptions = " + typeof AddPageOptions)
+    $.writeln("AdornmentOverprint = " + typeof AdornmentOverprint)
+    $.writeln("AlignDistributeBounds = " + typeof AlignDistributeBounds)
+    $.writeln("AlignDistributePreference = " + typeof AlignDistributePreference)
+    $.writeln("AlignmentStyleOptions = " + typeof AlignmentStyleOptions)
+    $.writeln("AlignOptions = " + typeof AlignOptions)
+    $.writeln("AlternateGlyphForms = " + typeof AlternateGlyphForms)
+    $.writeln("AlternatingFillsTypes = " + typeof AlternatingFillsTypes)
+    $.writeln("AnchoredObjectDefault = " + typeof AnchoredObjectDefault)
+    $.writeln("AnchoredObjectSetting = " + typeof AnchoredObjectSetting)
+    $.writeln("AnchoredRelativeTo = " + typeof AnchoredRelativeTo)
+    $.writeln("AnchorPoint = " + typeof AnchorPoint)
+    $.writeln("AnchorPosition = " + typeof AnchorPosition)
+    $.writeln("AngleCombobox = " + typeof AngleCombobox)
+    $.writeln("AngleComboboxes = " + typeof AngleComboboxes)
+    $.writeln("AngleEditbox = " + typeof AngleEditbox)
+    $.writeln("AngleEditboxes = " + typeof AngleEditboxes)
+    $.writeln("AnimationBehavior = " + typeof AnimationBehavior)
+    $.writeln("AnimationBehaviors = " + typeof AnimationBehaviors)
+    $.writeln("AnimationEaseOptions = " + typeof AnimationEaseOptions)
+    $.writeln("AnimationPlayOperations = " + typeof AnimationPlayOperations)
+    $.writeln("AnimationSetting = " + typeof AnimationSetting)
+    $.writeln("AntiAliasType = " + typeof AntiAliasType)
+    $.writeln("Application = " + typeof Application)
+    $.writeln("ArrangeBy = " + typeof ArrangeBy)
+    $.writeln("ArrowHead = " + typeof ArrowHead)
+    $.writeln("ArrowHeadAlignmentEnum = " + typeof ArrowHeadAlignmentEnum)
+    $.writeln("Article = " + typeof Article)
+    $.writeln("ArticleChild = " + typeof ArticleChild)
+    $.writeln("ArticleChildren = " + typeof ArticleChildren)
+    $.writeln("ArticleMember = " + typeof ArticleMember)
+    $.writeln("ArticleMembers = " + typeof ArticleMembers)
+    $.writeln("Articles = " + typeof Articles)
+    $.writeln("Asset = " + typeof Asset)
+    $.writeln("Assets = " + typeof Assets)
+    $.writeln("AssetType = " + typeof AssetType)
+    $.writeln("AssignedStories = " + typeof AssignedStories)
+    $.writeln("AssignedStory = " + typeof AssignedStory)
+    $.writeln("Assignment = " + typeof Assignment)
+    $.writeln("AssignmentExportOptions = " + typeof AssignmentExportOptions)
+    $.writeln("Assignments = " + typeof Assignments)
+    $.writeln("AssignmentStatus = " + typeof AssignmentStatus)
+    $.writeln("AttachedDevices = " + typeof AttachedDevices)
+    $.writeln("AutoCorrectPreference = " + typeof AutoCorrectPreference)
+    $.writeln("AutoCorrectTable = " + typeof AutoCorrectTable)
+    $.writeln("AutoCorrectTables = " + typeof AutoCorrectTables)
+    $.writeln("AutoEnum = " + typeof AutoEnum)
+    $.writeln("AutoSizingReferenceEnum = " + typeof AutoSizingReferenceEnum)
+    $.writeln("AutoSizingTypeEnum = " + typeof AutoSizingTypeEnum)
+    $.writeln("BackgroundTask = " + typeof BackgroundTask)
+    $.writeln("BackgroundTasks = " + typeof BackgroundTasks)
+    $.writeln("BalanceLinesStyle = " + typeof BalanceLinesStyle)
+    $.writeln("BaselineFrameGridOption = " + typeof BaselineFrameGridOption)
+    $.writeln("BaselineFrameGridRelativeOption = " + typeof BaselineFrameGridRelativeOption)
+    $.writeln("BaselineGridRelativeOption = " + typeof BaselineGridRelativeOption)
+    $.writeln("Behavior = " + typeof Behavior)
+    $.writeln("BehaviorEvents = " + typeof BehaviorEvents)
+    $.writeln("Behaviors = " + typeof Behaviors)
+    $.writeln("BevelAndEmbossDirection = " + typeof BevelAndEmbossDirection)
+    $.writeln("BevelAndEmbossSetting = " + typeof BevelAndEmbossSetting)
+    $.writeln("BevelAndEmbossStyle = " + typeof BevelAndEmbossStyle)
+    $.writeln("BevelAndEmbossTechnique = " + typeof BevelAndEmbossTechnique)
+    $.writeln("BindingOptions = " + typeof BindingOptions)
+    $.writeln("BitmapCompression = " + typeof BitmapCompression)
+    $.writeln("BlendingSetting = " + typeof BlendingSetting)
+    $.writeln("BlendingSpace = " + typeof BlendingSpace)
+    $.writeln("BlendMode = " + typeof BlendMode)
+    $.writeln("Book = " + typeof Book)
+    $.writeln("BookContent = " + typeof BookContent)
+    $.writeln("BookContents = " + typeof BookContents)
+    $.writeln("BookContentStatus = " + typeof BookContentStatus)
+    $.writeln("BookletTypeOptions = " + typeof BookletTypeOptions)
+    $.writeln("Bookmark = " + typeof Bookmark)
+    $.writeln("Bookmarks = " + typeof Bookmarks)
+    $.writeln("Books = " + typeof Books)
+    $.writeln("BorderPanel = " + typeof BorderPanel)
+    $.writeln("BorderPanels = " + typeof BorderPanels)
+    $.writeln("BoundingBoxLimits = " + typeof BoundingBoxLimits)
+    $.writeln("BuildingBlock = " + typeof BuildingBlock)
+    $.writeln("BuildingBlocks = " + typeof BuildingBlocks)
+    $.writeln("BuildingBlockTypes = " + typeof BuildingBlockTypes)
+    $.writeln("Bullet = " + typeof Bullet)
+    $.writeln("BulletCharacterType = " + typeof BulletCharacterType)
+    $.writeln("BulletListExportOption = " + typeof BulletListExportOption)
+    $.writeln("Button = " + typeof Button)
+    $.writeln("ButtonPreference = " + typeof ButtonPreference)
+    $.writeln("Buttons = " + typeof Buttons)
+    $.writeln("Capitalization = " + typeof Capitalization)
+    $.writeln("CaptionMetadataVariablePreference = " + typeof CaptionMetadataVariablePreference)
+    $.writeln("Cell = " + typeof Cell)
+    $.writeln("Cells = " + typeof Cells)
+    $.writeln("CellStyle = " + typeof CellStyle)
+    $.writeln("CellStyleGroup = " + typeof CellStyleGroup)
+    $.writeln("CellStyleGroups = " + typeof CellStyleGroups)
+    $.writeln("CellStyleMapping = " + typeof CellStyleMapping)
+    $.writeln("CellStyleMappings = " + typeof CellStyleMappings)
+    $.writeln("CellStyles = " + typeof CellStyles)
+    $.writeln("CellTypeEnum = " + typeof CellTypeEnum)
+    $.writeln("Change = " + typeof Change)
+    $.writeln("ChangeBackgroundColorChoices = " + typeof ChangeBackgroundColorChoices)
+    $.writeln("ChangebarLocations = " + typeof ChangebarLocations)
+    $.writeln("ChangecaseMode = " + typeof ChangecaseMode)
+    $.writeln("ChangeCaseOptions = " + typeof ChangeCaseOptions)
+    $.writeln("ChangeConditionsModes = " + typeof ChangeConditionsModes)
+    $.writeln("ChangeGlyphPreference = " + typeof ChangeGlyphPreference)
+    $.writeln("ChangeGrepPreference = " + typeof ChangeGrepPreference)
+    $.writeln("ChangeMarkings = " + typeof ChangeMarkings)
+    $.writeln("ChangeObjectPreference = " + typeof ChangeObjectPreference)
+    $.writeln("Changes = " + typeof Changes)
+    $.writeln("ChangeTextColorChoices = " + typeof ChangeTextColorChoices)
+    $.writeln("ChangeTextPreference = " + typeof ChangeTextPreference)
+    $.writeln("ChangeTransliteratePreference = " + typeof ChangeTransliteratePreference)
+    $.writeln("ChangeTypes = " + typeof ChangeTypes)
+    $.writeln("ChapterNumberPreference = " + typeof ChapterNumberPreference)
+    $.writeln("ChapterNumberSources = " + typeof ChapterNumberSources)
+    $.writeln("ChapterNumberVariablePreference = " + typeof ChapterNumberVariablePreference)
+    $.writeln("Character = " + typeof Character)
+    $.writeln("CharacterAlignment = " + typeof CharacterAlignment)
+    $.writeln("CharacterCountLocation = " + typeof CharacterCountLocation)
+    $.writeln("CharacterDirectionOptions = " + typeof CharacterDirectionOptions)
+    $.writeln("Characters = " + typeof Characters)
+    $.writeln("CharacterStyle = " + typeof CharacterStyle)
+    $.writeln("CharacterStyleGroup = " + typeof CharacterStyleGroup)
+    $.writeln("CharacterStyleGroups = " + typeof CharacterStyleGroups)
+    $.writeln("CharacterStyles = " + typeof CharacterStyles)
+    $.writeln("CharStyleMapping = " + typeof CharStyleMapping)
+    $.writeln("CharStyleMappings = " + typeof CharStyleMappings)
+    $.writeln("CheckBox = " + typeof CheckBox)
+    $.writeln("CheckboxControl = " + typeof CheckboxControl)
+    $.writeln("CheckboxControls = " + typeof CheckboxControls)
+    $.writeln("CheckBoxes = " + typeof CheckBoxes)
+    $.writeln("CjkGridPreference = " + typeof CjkGridPreference)
+    $.writeln("ClearFormBehavior = " + typeof ClearFormBehavior)
+    $.writeln("ClearFormBehaviors = " + typeof ClearFormBehaviors)
+    $.writeln("ClipboardPreference = " + typeof ClipboardPreference)
+    $.writeln("ClippingPathSettings = " + typeof ClippingPathSettings)
+    $.writeln("ClippingPathType = " + typeof ClippingPathType)
+    $.writeln("Color = " + typeof Color)
+    $.writeln("ColorGroup = " + typeof ColorGroup)
+    $.writeln("ColorGroups = " + typeof ColorGroups)
+    $.writeln("ColorGroupSwatch = " + typeof ColorGroupSwatch)
+    $.writeln("ColorGroupSwatches = " + typeof ColorGroupSwatches)
+    $.writeln("ColorModel = " + typeof ColorModel)
+    $.writeln("ColorOutputModes = " + typeof ColorOutputModes)
+    $.writeln("ColorRenderingDictionary = " + typeof ColorRenderingDictionary)
+    $.writeln("Colors = " + typeof Colors)
+    $.writeln("ColorSetting = " + typeof ColorSetting)
+    $.writeln("ColorSettingsPolicy = " + typeof ColorSettingsPolicy)
+    $.writeln("ColorSpace = " + typeof ColorSpace)
+    $.writeln("Column = " + typeof Column)
+    $.writeln("Columns = " + typeof Columns)
+    $.writeln("ComboBox = " + typeof ComboBox)
+    $.writeln("ComboBoxes = " + typeof ComboBoxes)
+    $.writeln("ComposeUsing = " + typeof ComposeUsing)
+    $.writeln("CompositeFont = " + typeof CompositeFont)
+    $.writeln("CompositeFontEntries = " + typeof CompositeFontEntries)
+    $.writeln("CompositeFontEntry = " + typeof CompositeFontEntry)
+    $.writeln("CompositeFonts = " + typeof CompositeFonts)
+    $.writeln("CompressionQuality = " + typeof CompressionQuality)
+    $.writeln("Condition = " + typeof Condition)
+    $.writeln("ConditionalTextPreference = " + typeof ConditionalTextPreference)
+    $.writeln("ConditionIndicatorMethod = " + typeof ConditionIndicatorMethod)
+    $.writeln("ConditionIndicatorMode = " + typeof ConditionIndicatorMode)
+    $.writeln("Conditions = " + typeof Conditions)
+    $.writeln("ConditionSet = " + typeof ConditionSet)
+    $.writeln("ConditionSets = " + typeof ConditionSets)
+    $.writeln("ConditionUnderlineIndicatorAppearance = " + typeof ConditionUnderlineIndicatorAppearance)
+    $.writeln("ContainerType = " + typeof ContainerType)
+    $.writeln("ContentPlacerObject = " + typeof ContentPlacerObject)
+    $.writeln("ContentTransparencySetting = " + typeof ContentTransparencySetting)
+    $.writeln("ContentType = " + typeof ContentType)
+    $.writeln("ContourOption = " + typeof ContourOption)
+    $.writeln("ContourOptionsTypes = " + typeof ContourOptionsTypes)
+    $.writeln("ConvertPageBreaks = " + typeof ConvertPageBreaks)
+    $.writeln("ConvertShapeOptions = " + typeof ConvertShapeOptions)
+    $.writeln("ConvertTablesOptions = " + typeof ConvertTablesOptions)
+    $.writeln("CoordinateSpaces = " + typeof CoordinateSpaces)
+    $.writeln("CopyrightStatus = " + typeof CopyrightStatus)
+    $.writeln("CornerOptions = " + typeof CornerOptions)
+    $.writeln("CreateProxy = " + typeof CreateProxy)
+    $.writeln("CrossReference = " + typeof CrossReference)
+    $.writeln("CrossReferenceFormat = " + typeof CrossReferenceFormat)
+    $.writeln("CrossReferenceFormats = " + typeof CrossReferenceFormats)
+    $.writeln("CrossReferences = " + typeof CrossReferences)
+    $.writeln("CrossReferenceSource = " + typeof CrossReferenceSource)
+    $.writeln("CrossReferenceSources = " + typeof CrossReferenceSources)
+    $.writeln("CrossReferenceType = " + typeof CrossReferenceType)
+    $.writeln("CursorTypes = " + typeof CursorTypes)
+    $.writeln("CustomLayoutTypeEnum = " + typeof CustomLayoutTypeEnum)
+    $.writeln("CustomTextVariablePreference = " + typeof CustomTextVariablePreference)
+    $.writeln("DashedStrokeStyle = " + typeof DashedStrokeStyle)
+    $.writeln("DashedStrokeStyles = " + typeof DashedStrokeStyles)
+    $.writeln("DataFormat = " + typeof DataFormat)
+    $.writeln("DataMerge = " + typeof DataMerge)
+    $.writeln("DataMergeField = " + typeof DataMergeField)
+    $.writeln("DataMergeFields = " + typeof DataMergeFields)
+    $.writeln("DataMergeImagePlaceholder = " + typeof DataMergeImagePlaceholder)
+    $.writeln("DataMergeImagePlaceholders = " + typeof DataMergeImagePlaceholders)
+    $.writeln("DataMergeOption = " + typeof DataMergeOption)
+    $.writeln("DataMergePreference = " + typeof DataMergePreference)
+    $.writeln("DataMergeQrcodePlaceholder = " + typeof DataMergeQrcodePlaceholder)
+    $.writeln("DataMergeQrcodePlaceholders = " + typeof DataMergeQrcodePlaceholders)
+    $.writeln("DataMergeTextPlaceholder = " + typeof DataMergeTextPlaceholder)
+    $.writeln("DataMergeTextPlaceholders = " + typeof DataMergeTextPlaceholders)
+    $.writeln("DateVariablePreference = " + typeof DateVariablePreference)
+    $.writeln("DefaultRenderingIntent = " + typeof DefaultRenderingIntent)
+    $.writeln("DesignOptions = " + typeof DesignOptions)
+    $.writeln("DiacriticPositionOptions = " + typeof DiacriticPositionOptions)
+    $.writeln("Dialog = " + typeof Dialog)
+    $.writeln("DialogColumn = " + typeof DialogColumn)
+    $.writeln("DialogColumns = " + typeof DialogColumns)
+    $.writeln("DialogRow = " + typeof DialogRow)
+    $.writeln("DialogRows = " + typeof DialogRows)
+    $.writeln("Dialogs = " + typeof Dialogs)
+    $.writeln("DictionaryPreference = " + typeof DictionaryPreference)
+    $.writeln("DigitsTypeOptions = " + typeof DigitsTypeOptions)
+    $.writeln("DigpubArticleVersion = " + typeof DigpubArticleVersion)
+    $.writeln("DigpubVersion = " + typeof DigpubVersion)
+    $.writeln("DimensionAttributes = " + typeof DimensionAttributes)
+    $.writeln("DimensionsConstraints = " + typeof DimensionsConstraints)
+    $.writeln("DirectionalFeatherSetting = " + typeof DirectionalFeatherSetting)
+    $.writeln("DisplayOrderOptions = " + typeof DisplayOrderOptions)
+    $.writeln("DisplayPerformancePreference = " + typeof DisplayPerformancePreference)
+    $.writeln("DisplaySetting = " + typeof DisplaySetting)
+    $.writeln("DisplaySettingOptions = " + typeof DisplaySettingOptions)
+    $.writeln("DisplaySettings = " + typeof DisplaySettings)
+    $.writeln("DistributeOptions = " + typeof DistributeOptions)
+    $.writeln("Document = " + typeof Document)
+    $.writeln("DocumentEvent = " + typeof DocumentEvent)
+    $.writeln("DocumentIntentOptions = " + typeof DocumentIntentOptions)
+    $.writeln("DocumentPreference = " + typeof DocumentPreference)
+    $.writeln("DocumentPreset = " + typeof DocumentPreset)
+    $.writeln("DocumentPresets = " + typeof DocumentPresets)
+    $.writeln("DocumentPrintUiOptions = " + typeof DocumentPrintUiOptions)
+    $.writeln("Documents = " + typeof Documents)
+    $.writeln("DottedStrokeStyle = " + typeof DottedStrokeStyle)
+    $.writeln("DottedStrokeStyles = " + typeof DottedStrokeStyles)
+    $.writeln("Dropdown = " + typeof Dropdown)
+    $.writeln("Dropdowns = " + typeof Dropdowns)
+    $.writeln("DropShadowSetting = " + typeof DropShadowSetting)
+    $.writeln("DTD = " + typeof DTD)
+    $.writeln("DTDs = " + typeof DTDs)
+    $.writeln("DynamicDocumentsJPEGQualityOptions = " + typeof DynamicDocumentsJPEGQualityOptions)
+    $.writeln("DynamicDocumentsTextExportPolicy = " + typeof DynamicDocumentsTextExportPolicy)
+    $.writeln("DynamicMediaHandlingOptions = " + typeof DynamicMediaHandlingOptions)
+    $.writeln("DynamicTriggerEvents = " + typeof DynamicTriggerEvents)
+    $.writeln("EditingState = " + typeof EditingState)
+    $.writeln("EmptyFrameFittingOptions = " + typeof EmptyFrameFittingOptions)
+    $.writeln("EnablingGroup = " + typeof EnablingGroup)
+    $.writeln("EnablingGroups = " + typeof EnablingGroups)
+    $.writeln("EndCap = " + typeof EndCap)
+    $.writeln("EndJoin = " + typeof EndJoin)
+    $.writeln("Endnote = " + typeof Endnote)
+    $.writeln("EndnoteFrameCreate = " + typeof EndnoteFrameCreate)
+    $.writeln("EndnoteOption = " + typeof EndnoteOption)
+    $.writeln("EndnoteRange = " + typeof EndnoteRange)
+    $.writeln("EndnoteRanges = " + typeof EndnoteRanges)
+    $.writeln("EndnoteRestarting = " + typeof EndnoteRestarting)
+    $.writeln("Endnotes = " + typeof Endnotes)
+    $.writeln("EndnoteScope = " + typeof EndnoteScope)
+    $.writeln("EndnoteTextFrame = " + typeof EndnoteTextFrame)
+    $.writeln("EndnoteTextFrames = " + typeof EndnoteTextFrames)
+    $.writeln("EPS = " + typeof EPS)
+    $.writeln("EPSColorSpace = " + typeof EPSColorSpace)
+    $.writeln("EPSExportPreference = " + typeof EPSExportPreference)
+    $.writeln("EPSImageData = " + typeof EPSImageData)
+    $.writeln("EPSImportPreference = " + typeof EPSImportPreference)
+    $.writeln("EPSs = " + typeof EPSs)
+    $.writeln("EPSText = " + typeof EPSText)
+    $.writeln("EPSTexts = " + typeof EPSTexts)
+    $.writeln("EpubCover = " + typeof EpubCover)
+    $.writeln("EPubExportPreference = " + typeof EPubExportPreference)
+    $.writeln("EPubExportPreviewAppPreference = " + typeof EPubExportPreviewAppPreference)
+    $.writeln("EPubFixedLayoutExportPreference = " + typeof EPubFixedLayoutExportPreference)
+    $.writeln("EpubFixedLayoutSpreadControl = " + typeof EpubFixedLayoutSpreadControl)
+    $.writeln("EPubFootnotePlacement = " + typeof EPubFootnotePlacement)
+    $.writeln("EpubNavigationStyle = " + typeof EpubNavigationStyle)
+    $.writeln("EpubVersion = " + typeof EpubVersion)
+    $.writeln("Event = " + typeof Event)
+    $.writeln("EventListener = " + typeof EventListener)
+    $.writeln("EventListeners = " + typeof EventListeners)
+    $.writeln("EventPhases = " + typeof EventPhases)
+    $.writeln("Events = " + typeof Events)
+    $.writeln("ExcelImportPreference = " + typeof ExcelImportPreference)
+    $.writeln("ExportFormat = " + typeof ExportFormat)
+    $.writeln("ExportForWebPreference = " + typeof ExportForWebPreference)
+    $.writeln("ExportLayerOptions = " + typeof ExportLayerOptions)
+    $.writeln("ExportOrder = " + typeof ExportOrder)
+    $.writeln("ExportPresetFormat = " + typeof ExportPresetFormat)
+    $.writeln("ExportRangeOrAllPages = " + typeof ExportRangeOrAllPages)
+    $.writeln("FeatherCornerType = " + typeof FeatherCornerType)
+    $.writeln("FeatherMode = " + typeof FeatherMode)
+    $.writeln("FeatherSetting = " + typeof FeatherSetting)
+    $.writeln("FeatureSetOptions = " + typeof FeatureSetOptions)
+    $.writeln("FileNameVariablePreference = " + typeof FileNameVariablePreference)
+    $.writeln("FillTransparencySetting = " + typeof FillTransparencySetting)
+    $.writeln("FindChangeBevelAndEmbossSetting = " + typeof FindChangeBevelAndEmbossSetting)
+    $.writeln("FindChangeBlendingSetting = " + typeof FindChangeBlendingSetting)
+    $.writeln("FindChangeContentTransparencySetting = " + typeof FindChangeContentTransparencySetting)
+    $.writeln("FindChangeDirectionalFeatherSetting = " + typeof FindChangeDirectionalFeatherSetting)
+    $.writeln("FindChangeDropShadowSetting = " + typeof FindChangeDropShadowSetting)
+    $.writeln("FindChangeFeatherSetting = " + typeof FindChangeFeatherSetting)
+    $.writeln("FindChangeFillTransparencySetting = " + typeof FindChangeFillTransparencySetting)
+    $.writeln("FindChangeGlyphOption = " + typeof FindChangeGlyphOption)
+    $.writeln("FindChangeGradientFeatherSetting = " + typeof FindChangeGradientFeatherSetting)
+    $.writeln("FindChangeGrepOption = " + typeof FindChangeGrepOption)
+    $.writeln("FindChangeInnerGlowSetting = " + typeof FindChangeInnerGlowSetting)
+    $.writeln("FindChangeInnerShadowSetting = " + typeof FindChangeInnerShadowSetting)
+    $.writeln("FindChangeObjectOption = " + typeof FindChangeObjectOption)
+    $.writeln("FindChangeOuterGlowSetting = " + typeof FindChangeOuterGlowSetting)
+    $.writeln("FindChangeSatinSetting = " + typeof FindChangeSatinSetting)
+    $.writeln("FindChangeStrokeTransparencySetting = " + typeof FindChangeStrokeTransparencySetting)
+    $.writeln("FindChangeTextOption = " + typeof FindChangeTextOption)
+    $.writeln("FindChangeTransliterateCharacterTypes = " + typeof FindChangeTransliterateCharacterTypes)
+    $.writeln("FindChangeTransliterateOption = " + typeof FindChangeTransliterateOption)
+    $.writeln("FindChangeTransparencySetting = " + typeof FindChangeTransparencySetting)
+    $.writeln("FindGlyphPreference = " + typeof FindGlyphPreference)
+    $.writeln("FindGrepPreference = " + typeof FindGrepPreference)
+    $.writeln("FindObjectPreference = " + typeof FindObjectPreference)
+    $.writeln("FindTextPreference = " + typeof FindTextPreference)
+    $.writeln("FindTransliteratePreference = " + typeof FindTransliteratePreference)
+    $.writeln("FirstBaseline = " + typeof FirstBaseline)
+    $.writeln("FitDimension = " + typeof FitDimension)
+    $.writeln("FitMethodSettings = " + typeof FitMethodSettings)
+    $.writeln("FitOptions = " + typeof FitOptions)
+    $.writeln("Fitting = " + typeof Fitting)
+    $.writeln("FlattenerLevel = " + typeof FlattenerLevel)
+    $.writeln("FlattenerPreference = " + typeof FlattenerPreference)
+    $.writeln("FlattenerPreset = " + typeof FlattenerPreset)
+    $.writeln("FlattenerPresets = " + typeof FlattenerPresets)
+    $.writeln("Flip = " + typeof Flip)
+    $.writeln("FlipValues = " + typeof FlipValues)
+    $.writeln("FloatingWindowPosition = " + typeof FloatingWindowPosition)
+    $.writeln("FloatingWindowSize = " + typeof FloatingWindowSize)
+    $.writeln("FolioBindingDirectionOptions = " + typeof FolioBindingDirectionOptions)
+    $.writeln("FolioOrientationOptions = " + typeof FolioOrientationOptions)
+    $.writeln("FollowShapeModeOptions = " + typeof FollowShapeModeOptions)
+    $.writeln("Font = " + typeof Font)
+    $.writeln("FontDownloading = " + typeof FontDownloading)
+    $.writeln("FontEmbedding = " + typeof FontEmbedding)
+    $.writeln("FontLockingPreference = " + typeof FontLockingPreference)
+    $.writeln("Fonts = " + typeof Fonts)
+    $.writeln("FontStatus = " + typeof FontStatus)
+    $.writeln("FontTypes = " + typeof FontTypes)
+    $.writeln("Footnote = " + typeof Footnote)
+    $.writeln("FootnoteFirstBaseline = " + typeof FootnoteFirstBaseline)
+    $.writeln("FootnoteMarkerPositioning = " + typeof FootnoteMarkerPositioning)
+    $.writeln("FootnoteNumberingStyle = " + typeof FootnoteNumberingStyle)
+    $.writeln("FootnoteOption = " + typeof FootnoteOption)
+    $.writeln("FootnotePrefixSuffix = " + typeof FootnotePrefixSuffix)
+    $.writeln("FootnoteRestarting = " + typeof FootnoteRestarting)
+    $.writeln("Footnotes = " + typeof Footnotes)
+    $.writeln("FormField = " + typeof FormField)
+    $.writeln("FormFields = " + typeof FormFields)
+    $.writeln("FrameFittingOption = " + typeof FrameFittingOption)
+    $.writeln("GalleyPreference = " + typeof GalleyPreference)
+    $.writeln("GeneralPreference = " + typeof GeneralPreference)
+    $.writeln("GIFOptionsPalette = " + typeof GIFOptionsPalette)
+    $.writeln("GlobalClashResolutionStrategy = " + typeof GlobalClashResolutionStrategy)
+    $.writeln("GlobalClashResolutionStrategyForMasterPage = " + typeof GlobalClashResolutionStrategyForMasterPage)
+    $.writeln("GlowTechnique = " + typeof GlowTechnique)
+    $.writeln("GotoAnchorBehavior = " + typeof GotoAnchorBehavior)
+    $.writeln("GotoAnchorBehaviors = " + typeof GotoAnchorBehaviors)
+    $.writeln("GotoFirstPageBehavior = " + typeof GotoFirstPageBehavior)
+    $.writeln("GotoFirstPageBehaviors = " + typeof GotoFirstPageBehaviors)
+    $.writeln("GotoLastPageBehavior = " + typeof GotoLastPageBehavior)
+    $.writeln("GotoLastPageBehaviors = " + typeof GotoLastPageBehaviors)
+    $.writeln("GotoNextPageBehavior = " + typeof GotoNextPageBehavior)
+    $.writeln("GotoNextPageBehaviors = " + typeof GotoNextPageBehaviors)
+    $.writeln("GotoNextStateBehavior = " + typeof GotoNextStateBehavior)
+    $.writeln("GotoNextStateBehaviors = " + typeof GotoNextStateBehaviors)
+    $.writeln("GotoNextViewBehavior = " + typeof GotoNextViewBehavior)
+    $.writeln("GotoNextViewBehaviors = " + typeof GotoNextViewBehaviors)
+    $.writeln("GotoPageBehavior = " + typeof GotoPageBehavior)
+    $.writeln("GotoPageBehaviors = " + typeof GotoPageBehaviors)
+    $.writeln("GotoPreviousPageBehavior = " + typeof GotoPreviousPageBehavior)
+    $.writeln("GotoPreviousPageBehaviors = " + typeof GotoPreviousPageBehaviors)
+    $.writeln("GotoPreviousStateBehavior = " + typeof GotoPreviousStateBehavior)
+    $.writeln("GotoPreviousStateBehaviors = " + typeof GotoPreviousStateBehaviors)
+    $.writeln("GotoPreviousViewBehavior = " + typeof GotoPreviousViewBehavior)
+    $.writeln("GotoPreviousViewBehaviors = " + typeof GotoPreviousViewBehaviors)
+    $.writeln("GotoStateBehavior = " + typeof GotoStateBehavior)
+    $.writeln("GotoStateBehaviors = " + typeof GotoStateBehaviors)
+    $.writeln("GotoURLBehavior = " + typeof GotoURLBehavior)
+    $.writeln("GotoURLBehaviors = " + typeof GotoURLBehaviors)
+    $.writeln("GoToZoomOptions = " + typeof GoToZoomOptions)
+    $.writeln("GpuPerformancePreference = " + typeof GpuPerformancePreference)
+    $.writeln("GrabberPreference = " + typeof GrabberPreference)
+    $.writeln("Gradient = " + typeof Gradient)
+    $.writeln("GradientFeatherSetting = " + typeof GradientFeatherSetting)
+    $.writeln("Gradients = " + typeof Gradients)
+    $.writeln("GradientStop = " + typeof GradientStop)
+    $.writeln("GradientStops = " + typeof GradientStops)
+    $.writeln("GradientType = " + typeof GradientType)
+    $.writeln("Graphic = " + typeof Graphic)
+    $.writeln("GraphicLayer = " + typeof GraphicLayer)
+    $.writeln("GraphicLayerOption = " + typeof GraphicLayerOption)
+    $.writeln("GraphicLayers = " + typeof GraphicLayers)
+    $.writeln("GraphicLine = " + typeof GraphicLine)
+    $.writeln("GraphicLines = " + typeof GraphicLines)
+    $.writeln("Graphics = " + typeof Graphics)
+    $.writeln("GridAlignment = " + typeof GridAlignment)
+    $.writeln("GridDataInformation = " + typeof GridDataInformation)
+    $.writeln("GridPreference = " + typeof GridPreference)
+    $.writeln("GridPrintingPreference = " + typeof GridPrintingPreference)
+    $.writeln("GridViewSettings = " + typeof GridViewSettings)
+    $.writeln("Group = " + typeof Group)
+    $.writeln("Groups = " + typeof Groups)
+    $.writeln("Guide = " + typeof Guide)
+    $.writeln("GuidePreference = " + typeof GuidePreference)
+    $.writeln("Guides = " + typeof Guides)
+    $.writeln("GuideTypeOptions = " + typeof GuideTypeOptions)
+    $.writeln("HeaderFooterBreakTypes = " + typeof HeaderFooterBreakTypes)
+    $.writeln("HeaderTypes = " + typeof HeaderTypes)
+    $.writeln("HiddenText = " + typeof HiddenText)
+    $.writeln("HiddenTexts = " + typeof HiddenTexts)
+    $.writeln("HorizontalAlignment = " + typeof HorizontalAlignment)
+    $.writeln("HorizontalOrVertical = " + typeof HorizontalOrVertical)
+    $.writeln("HTMLExportPreference = " + typeof HTMLExportPreference)
+    $.writeln("HTMLFXLExportPreference = " + typeof HTMLFXLExportPreference)
+    $.writeln("HtmlItem = " + typeof HtmlItem)
+    $.writeln("HtmlItems = " + typeof HtmlItems)
+    $.writeln("HttpLinkConnectionManagerObject = " + typeof HttpLinkConnectionManagerObject)
+    $.writeln("Hyperlink = " + typeof Hyperlink)
+    $.writeln("HyperlinkAppearanceHighlight = " + typeof HyperlinkAppearanceHighlight)
+    $.writeln("HyperlinkAppearanceStyle = " + typeof HyperlinkAppearanceStyle)
+    $.writeln("HyperlinkAppearanceWidth = " + typeof HyperlinkAppearanceWidth)
+    $.writeln("HyperlinkDestinationPageSetting = " + typeof HyperlinkDestinationPageSetting)
+    $.writeln("HyperlinkExternalPageDestination = " + typeof HyperlinkExternalPageDestination)
+    $.writeln("HyperlinkExternalPageDestinations = " + typeof HyperlinkExternalPageDestinations)
+    $.writeln("HyperlinkPageDestination = " + typeof HyperlinkPageDestination)
+    $.writeln("HyperlinkPageDestinations = " + typeof HyperlinkPageDestinations)
+    $.writeln("HyperlinkPageItemSource = " + typeof HyperlinkPageItemSource)
+    $.writeln("HyperlinkPageItemSources = " + typeof HyperlinkPageItemSources)
+    $.writeln("Hyperlinks = " + typeof Hyperlinks)
+    $.writeln("HyperlinkTextDestination = " + typeof HyperlinkTextDestination)
+    $.writeln("HyperlinkTextDestinations = " + typeof HyperlinkTextDestinations)
+    $.writeln("HyperlinkTextSource = " + typeof HyperlinkTextSource)
+    $.writeln("HyperlinkTextSources = " + typeof HyperlinkTextSources)
+    $.writeln("HyperlinkURLDestination = " + typeof HyperlinkURLDestination)
+    $.writeln("HyperlinkURLDestinations = " + typeof HyperlinkURLDestinations)
+    $.writeln("HyphenationException = " + typeof HyphenationException)
+    $.writeln("HyphenationExceptions = " + typeof HyphenationExceptions)
+    $.writeln("HyphenationStyleEnum = " + typeof HyphenationStyleEnum)
+    $.writeln("ICCProfiles = " + typeof ICCProfiles)
+    $.writeln("IconSizes = " + typeof IconSizes)
+    $.writeln("IdleEvent = " + typeof IdleEvent)
+    $.writeln("IdleTask = " + typeof IdleTask)
+    $.writeln("IdleTasks = " + typeof IdleTasks)
+    $.writeln("Image = " + typeof Image)
+    $.writeln("ImageAlignmentType = " + typeof ImageAlignmentType)
+    $.writeln("ImageConversion = " + typeof ImageConversion)
+    $.writeln("ImageDataTypes = " + typeof ImageDataTypes)
+    $.writeln("ImageExportOption = " + typeof ImageExportOption)
+    $.writeln("ImageFormat = " + typeof ImageFormat)
+    $.writeln("ImageIOPreference = " + typeof ImageIOPreference)
+    $.writeln("ImagePageBreakType = " + typeof ImagePageBreakType)
+    $.writeln("ImagePreference = " + typeof ImagePreference)
+    $.writeln("ImageResolution = " + typeof ImageResolution)
+    $.writeln("Images = " + typeof Images)
+    $.writeln("ImageSizeOption = " + typeof ImageSizeOption)
+    $.writeln("IMEPreference = " + typeof IMEPreference)
+    $.writeln("ImportedPage = " + typeof ImportedPage)
+    $.writeln("ImportedPageAttribute = " + typeof ImportedPageAttribute)
+    $.writeln("ImportedPageCropOptions = " + typeof ImportedPageCropOptions)
+    $.writeln("ImportedPages = " + typeof ImportedPages)
+    $.writeln("ImportExportEvent = " + typeof ImportExportEvent)
+    $.writeln("ImportFormat = " + typeof ImportFormat)
+    $.writeln("ImportPlatform = " + typeof ImportPlatform)
+    $.writeln("InCopyExportOption = " + typeof InCopyExportOption)
+    $.writeln("InCopyUIColors = " + typeof InCopyUIColors)
+    $.writeln("Index = " + typeof Index)
+    $.writeln("IndexCapitalizationOptions = " + typeof IndexCapitalizationOptions)
+    $.writeln("Indexes = " + typeof Indexes)
+    $.writeln("IndexFormat = " + typeof IndexFormat)
+    $.writeln("IndexingSortOption = " + typeof IndexingSortOption)
+    $.writeln("IndexingSortOptions = " + typeof IndexingSortOptions)
+    $.writeln("IndexOptions = " + typeof IndexOptions)
+    $.writeln("IndexSection = " + typeof IndexSection)
+    $.writeln("IndexSections = " + typeof IndexSections)
+    $.writeln("Ink = " + typeof Ink)
+    $.writeln("Inks = " + typeof Inks)
+    $.writeln("InkTypes = " + typeof InkTypes)
+    $.writeln("InnerGlowSetting = " + typeof InnerGlowSetting)
+    $.writeln("InnerGlowSource = " + typeof InnerGlowSource)
+    $.writeln("InnerShadowSetting = " + typeof InnerShadowSetting)
+    $.writeln("InsertionPoint = " + typeof InsertionPoint)
+    $.writeln("InsertionPoints = " + typeof InsertionPoints)
+    $.writeln("IntegerCombobox = " + typeof IntegerCombobox)
+    $.writeln("IntegerComboboxes = " + typeof IntegerComboboxes)
+    $.writeln("IntegerEditbox = " + typeof IntegerEditbox)
+    $.writeln("IntegerEditboxes = " + typeof IntegerEditboxes)
+    $.writeln("InteractiveElementsOptions = " + typeof InteractiveElementsOptions)
+    $.writeln("InteractivePDFExportPreference = " + typeof InteractivePDFExportPreference)
+    $.writeln("InteractivePDFInteractiveElementsOptions = " + typeof InteractivePDFInteractiveElementsOptions)
+    $.writeln("JoinOptions = " + typeof JoinOptions)
+    $.writeln("JpegColorSpaceEnum = " + typeof JpegColorSpaceEnum)
+    $.writeln("JPEGExportPreference = " + typeof JPEGExportPreference)
+    $.writeln("JPEGOptionsFormat = " + typeof JPEGOptionsFormat)
+    $.writeln("JPEGOptionsQuality = " + typeof JPEGOptionsQuality)
+    $.writeln("Justification = " + typeof Justification)
+    $.writeln("KashidasOptions = " + typeof KashidasOptions)
+    $.writeln("KentenAlignment = " + typeof KentenAlignment)
+    $.writeln("KentenCharacter = " + typeof KentenCharacter)
+    $.writeln("KentenCharacterSet = " + typeof KentenCharacterSet)
+    $.writeln("KinsokuHangTypes = " + typeof KinsokuHangTypes)
+    $.writeln("KinsokuSet = " + typeof KinsokuSet)
+    $.writeln("KinsokuTable = " + typeof KinsokuTable)
+    $.writeln("KinsokuTables = " + typeof KinsokuTables)
+    $.writeln("KinsokuType = " + typeof KinsokuType)
+    $.writeln("Language = " + typeof Language)
+    $.writeln("LanguageAndRegion = " + typeof LanguageAndRegion)
+    $.writeln("Languages = " + typeof Languages)
+    $.writeln("LanguagesWithVendors = " + typeof LanguagesWithVendors)
+    $.writeln("LanguageWithVendors = " + typeof LanguageWithVendors)
+    $.writeln("Layer = " + typeof Layer)
+    $.writeln("Layers = " + typeof Layers)
+    $.writeln("LayoutAdjustmentPreference = " + typeof LayoutAdjustmentPreference)
+    $.writeln("LayoutGridDataInformation = " + typeof LayoutGridDataInformation)
+    $.writeln("LayoutRuleOptions = " + typeof LayoutRuleOptions)
+    $.writeln("LayoutWindow = " + typeof LayoutWindow)
+    $.writeln("LayoutWindows = " + typeof LayoutWindows)
+    $.writeln("Leading = " + typeof Leading)
+    $.writeln("LeadingModel = " + typeof LeadingModel)
+    $.writeln("Libraries = " + typeof Libraries)
+    $.writeln("Library = " + typeof Library)
+    $.writeln("LibraryPanel = " + typeof LibraryPanel)
+    $.writeln("LibraryPanelViews = " + typeof LibraryPanelViews)
+    $.writeln("Line = " + typeof Line)
+    $.writeln("LineAlignment = " + typeof LineAlignment)
+    $.writeln("Lines = " + typeof Lines)
+    $.writeln("LineSpacingType = " + typeof LineSpacingType)
+    $.writeln("Link = " + typeof Link)
+    $.writeln("LinkedPageItemOption = " + typeof LinkedPageItemOption)
+    $.writeln("LinkedStoryOption = " + typeof LinkedStoryOption)
+    $.writeln("LinkingPreference = " + typeof LinkingPreference)
+    $.writeln("LinkMetadata = " + typeof LinkMetadata)
+    $.writeln("LinkResourceRenditionType = " + typeof LinkResourceRenditionType)
+    $.writeln("Links = " + typeof Links)
+    $.writeln("LinkStatus = " + typeof LinkStatus)
+    $.writeln("ListAlignment = " + typeof ListAlignment)
+    $.writeln("ListBox = " + typeof ListBox)
+    $.writeln("ListBoxes = " + typeof ListBoxes)
+    $.writeln("ListType = " + typeof ListType)
+    $.writeln("LiveDrawingOptions = " + typeof LiveDrawingOptions)
+    $.writeln("Locale = " + typeof Locale)
+    $.writeln("LocationOptions = " + typeof LocationOptions)
+    $.writeln("LockStateValues = " + typeof LockStateValues)
+    $.writeln("MapType = " + typeof MapType)
+    $.writeln("MarginPreference = " + typeof MarginPreference)
+    $.writeln("MarkLineWeight = " + typeof MarkLineWeight)
+    $.writeln("MarkTypes = " + typeof MarkTypes)
+    $.writeln("MasterSpread = " + typeof MasterSpread)
+    $.writeln("MasterSpreads = " + typeof MasterSpreads)
+    $.writeln("MatchCharacterStylePreference = " + typeof MatchCharacterStylePreference)
+    $.writeln("MatchParagraphStylePreference = " + typeof MatchParagraphStylePreference)
+    $.writeln("MatrixContent = " + typeof MatrixContent)
+    $.writeln("MeasurementCombobox = " + typeof MeasurementCombobox)
+    $.writeln("MeasurementComboboxes = " + typeof MeasurementComboboxes)
+    $.writeln("MeasurementEditbox = " + typeof MeasurementEditbox)
+    $.writeln("MeasurementEditboxes = " + typeof MeasurementEditboxes)
+    $.writeln("MeasurementUnits = " + typeof MeasurementUnits)
+    $.writeln("MediaItem = " + typeof MediaItem)
+    $.writeln("MediaItems = " + typeof MediaItems)
+    $.writeln("Menu = " + typeof Menu)
+    $.writeln("MenuAction = " + typeof MenuAction)
+    $.writeln("MenuActions = " + typeof MenuActions)
+    $.writeln("MenuElement = " + typeof MenuElement)
+    $.writeln("MenuElements = " + typeof MenuElements)
+    $.writeln("MenuItem = " + typeof MenuItem)
+    $.writeln("MenuItems = " + typeof MenuItems)
+    $.writeln("Menus = " + typeof Menus)
+    $.writeln("MenuSeparator = " + typeof MenuSeparator)
+    $.writeln("MenuSeparators = " + typeof MenuSeparators)
+    $.writeln("MetadataPreference = " + typeof MetadataPreference)
+    $.writeln("MixedInk = " + typeof MixedInk)
+    $.writeln("MixedInkGroup = " + typeof MixedInkGroup)
+    $.writeln("MixedInkGroups = " + typeof MixedInkGroups)
+    $.writeln("MixedInks = " + typeof MixedInks)
+    $.writeln("MojikumiTable = " + typeof MojikumiTable)
+    $.writeln("MojikumiTableDefaults = " + typeof MojikumiTableDefaults)
+    $.writeln("MojikumiTables = " + typeof MojikumiTables)
+    $.writeln("MojikumiUiPreference = " + typeof MojikumiUiPreference)
+    $.writeln("MonoBitmapCompression = " + typeof MonoBitmapCompression)
+    $.writeln("MotionPreset = " + typeof MotionPreset)
+    $.writeln("MotionPresets = " + typeof MotionPresets)
+    $.writeln("Movie = " + typeof Movie)
+    $.writeln("MovieBehavior = " + typeof MovieBehavior)
+    $.writeln("MovieBehaviors = " + typeof MovieBehaviors)
+    $.writeln("MoviePlayOperations = " + typeof MoviePlayOperations)
+    $.writeln("MoviePosterTypes = " + typeof MoviePosterTypes)
+    $.writeln("Movies = " + typeof Movies)
+    $.writeln("MultiStateObject = " + typeof MultiStateObject)
+    $.writeln("MultiStateObjects = " + typeof MultiStateObjects)
+    $.writeln("MutationEvent = " + typeof MutationEvent)
+    $.writeln("NamedGrid = " + typeof NamedGrid)
+    $.writeln("NamedGrids = " + typeof NamedGrids)
+    $.writeln("NavigationPoint = " + typeof NavigationPoint)
+    $.writeln("NavigationPoints = " + typeof NavigationPoints)
+    $.writeln("NestedGrepStyle = " + typeof NestedGrepStyle)
+    $.writeln("NestedGrepStyles = " + typeof NestedGrepStyles)
+    $.writeln("NestedLineStyle = " + typeof NestedLineStyle)
+    $.writeln("NestedLineStyles = " + typeof NestedLineStyles)
+    $.writeln("NestedStyle = " + typeof NestedStyle)
+    $.writeln("NestedStyleDelimiters = " + typeof NestedStyleDelimiters)
+    $.writeln("NestedStyles = " + typeof NestedStyles)
+    $.writeln("Note = " + typeof Note)
+    $.writeln("NoteBackgrounds = " + typeof NoteBackgrounds)
+    $.writeln("NoteColorChoices = " + typeof NoteColorChoices)
+    $.writeln("NotePreference = " + typeof NotePreference)
+    $.writeln("Notes = " + typeof Notes)
+    $.writeln("NothingEnum = " + typeof NothingEnum)
+    $.writeln("NumberedListExportOption = " + typeof NumberedListExportOption)
+    $.writeln("NumberedParagraphsOptions = " + typeof NumberedParagraphsOptions)
+    $.writeln("NumberingList = " + typeof NumberingList)
+    $.writeln("NumberingLists = " + typeof NumberingLists)
+    $.writeln("NumberingRestartPolicy = " + typeof NumberingRestartPolicy)
+    $.writeln("NumberingStyle = " + typeof NumberingStyle)
+    $.writeln("ObjectExportOption = " + typeof ObjectExportOption)
+    $.writeln("ObjectStyle = " + typeof ObjectStyle)
+    $.writeln("ObjectStyleContentEffectsCategorySettings = " + typeof ObjectStyleContentEffectsCategorySettings)
+    $.writeln("ObjectStyleExportTagMap = " + typeof ObjectStyleExportTagMap)
+    $.writeln("ObjectStyleExportTagMaps = " + typeof ObjectStyleExportTagMaps)
+    $.writeln("ObjectStyleFillEffectsCategorySettings = " + typeof ObjectStyleFillEffectsCategorySettings)
+    $.writeln("ObjectStyleGroup = " + typeof ObjectStyleGroup)
+    $.writeln("ObjectStyleGroups = " + typeof ObjectStyleGroups)
+    $.writeln("ObjectStyleObjectEffectsCategorySettings = " + typeof ObjectStyleObjectEffectsCategorySettings)
+    $.writeln("ObjectStyles = " + typeof ObjectStyles)
+    $.writeln("ObjectStyleStrokeEffectsCategorySettings = " + typeof ObjectStyleStrokeEffectsCategorySettings)
+    $.writeln("ObjectTypes = " + typeof ObjectTypes)
+    $.writeln("OpacityGradientStop = " + typeof OpacityGradientStop)
+    $.writeln("OpacityGradientStops = " + typeof OpacityGradientStops)
+    $.writeln("OpenFileBehavior = " + typeof OpenFileBehavior)
+    $.writeln("OpenFileBehaviors = " + typeof OpenFileBehaviors)
+    $.writeln("OpenOptions = " + typeof OpenOptions)
+    $.writeln("OpenTypeFeature = " + typeof OpenTypeFeature)
+    $.writeln("OTFFigureStyle = " + typeof OTFFigureStyle)
+    $.writeln("OuterGlowSetting = " + typeof OuterGlowSetting)
+    $.writeln("OutlineJoin = " + typeof OutlineJoin)
+    $.writeln("Oval = " + typeof Oval)
+    $.writeln("Ovals = " + typeof Ovals)
+    $.writeln("OverrideType = " + typeof OverrideType)
+    $.writeln("Page = " + typeof Page)
+    $.writeln("PageBindingOptions = " + typeof PageBindingOptions)
+    $.writeln("PageColorOptions = " + typeof PageColorOptions)
+    $.writeln("PageItem = " + typeof PageItem)
+    $.writeln("PageItemDefault = " + typeof PageItemDefault)
+    $.writeln("PageItems = " + typeof PageItems)
+    $.writeln("PageLayoutOptions = " + typeof PageLayoutOptions)
+    $.writeln("PageNumberingOptions = " + typeof PageNumberingOptions)
+    $.writeln("PageNumberPosition = " + typeof PageNumberPosition)
+    $.writeln("PageNumberStyle = " + typeof PageNumberStyle)
+    $.writeln("PageNumberVariablePreference = " + typeof PageNumberVariablePreference)
+    $.writeln("PageOrientation = " + typeof PageOrientation)
+    $.writeln("PagePositions = " + typeof PagePositions)
+    $.writeln("PageRange = " + typeof PageRange)
+    $.writeln("PageRangeFormat = " + typeof PageRangeFormat)
+    $.writeln("PageReference = " + typeof PageReference)
+    $.writeln("PageReferences = " + typeof PageReferences)
+    $.writeln("PageReferenceType = " + typeof PageReferenceType)
+    $.writeln("Pages = " + typeof Pages)
+    $.writeln("PageSideOptions = " + typeof PageSideOptions)
+    $.writeln("PagesPanel = " + typeof PagesPanel)
+    $.writeln("PageTransitionDirectionOptions = " + typeof PageTransitionDirectionOptions)
+    $.writeln("PageTransitionDurationOptions = " + typeof PageTransitionDurationOptions)
+    $.writeln("PageTransitionOverrideOptions = " + typeof PageTransitionOverrideOptions)
+    $.writeln("PageTransitionTypeOptions = " + typeof PageTransitionTypeOptions)
+    $.writeln("PageViewOptions = " + typeof PageViewOptions)
+    $.writeln("Panel = " + typeof Panel)
+    $.writeln("PanelLayoutResize = " + typeof PanelLayoutResize)
+    $.writeln("Panels = " + typeof Panels)
+    $.writeln("PanningTypes = " + typeof PanningTypes)
+    $.writeln("PaperSize = " + typeof PaperSize)
+    $.writeln("PaperSizes = " + typeof PaperSizes)
+    $.writeln("Paragraph = " + typeof Paragraph)
+    $.writeln("ParagraphBorderBottomOriginEnum = " + typeof ParagraphBorderBottomOriginEnum)
+    $.writeln("ParagraphBorderEnum = " + typeof ParagraphBorderEnum)
+    $.writeln("ParagraphBorderTopOriginEnum = " + typeof ParagraphBorderTopOriginEnum)
+    $.writeln("ParagraphDestination = " + typeof ParagraphDestination)
+    $.writeln("ParagraphDestinations = " + typeof ParagraphDestinations)
+    $.writeln("ParagraphDirectionOptions = " + typeof ParagraphDirectionOptions)
+    $.writeln("ParagraphJustificationOptions = " + typeof ParagraphJustificationOptions)
+    $.writeln("Paragraphs = " + typeof Paragraphs)
+    $.writeln("ParagraphShadingBottomOriginEnum = " + typeof ParagraphShadingBottomOriginEnum)
+    $.writeln("ParagraphShadingTopOriginEnum = " + typeof ParagraphShadingTopOriginEnum)
+    $.writeln("ParagraphShadingWidthEnum = " + typeof ParagraphShadingWidthEnum)
+    $.writeln("ParagraphStyle = " + typeof ParagraphStyle)
+    $.writeln("ParagraphStyleGroup = " + typeof ParagraphStyleGroup)
+    $.writeln("ParagraphStyleGroups = " + typeof ParagraphStyleGroups)
+    $.writeln("ParagraphStyles = " + typeof ParagraphStyles)
+    $.writeln("ParaStyleMapping = " + typeof ParaStyleMapping)
+    $.writeln("ParaStyleMappings = " + typeof ParaStyleMappings)
+    $.writeln("PasteboardPreference = " + typeof PasteboardPreference)
+    $.writeln("Path = " + typeof Path)
+    $.writeln("PathPoint = " + typeof PathPoint)
+    $.writeln("PathPoints = " + typeof PathPoints)
+    $.writeln("Paths = " + typeof Paths)
+    $.writeln("PathType = " + typeof PathType)
+    $.writeln("PathTypeAlignments = " + typeof PathTypeAlignments)
+    $.writeln("PDF = " + typeof PDF)
+    $.writeln("PDFAttribute = " + typeof PDFAttribute)
+    $.writeln("PDFColorSpace = " + typeof PDFColorSpace)
+    $.writeln("PDFCompressionType = " + typeof PDFCompressionType)
+    $.writeln("PDFCrop = " + typeof PDFCrop)
+    $.writeln("PdfDisplayTitleOptions = " + typeof PdfDisplayTitleOptions)
+    $.writeln("PDFExportPreference = " + typeof PDFExportPreference)
+    $.writeln("PDFExportPreset = " + typeof PDFExportPreset)
+    $.writeln("PDFExportPresets = " + typeof PDFExportPresets)
+    $.writeln("PDFJPEGQualityOptions = " + typeof PDFJPEGQualityOptions)
+    $.writeln("PdfMagnificationOptions = " + typeof PdfMagnificationOptions)
+    $.writeln("PDFMarkWeight = " + typeof PDFMarkWeight)
+    $.writeln("PDFPlacePreference = " + typeof PDFPlacePreference)
+    $.writeln("PDFProfileSelector = " + typeof PDFProfileSelector)
+    $.writeln("PDFRasterCompressionOptions = " + typeof PDFRasterCompressionOptions)
+    $.writeln("PDFs = " + typeof PDFs)
+    $.writeln("PDFXStandards = " + typeof PDFXStandards)
+    $.writeln("PercentCombobox = " + typeof PercentCombobox)
+    $.writeln("PercentComboboxes = " + typeof PercentComboboxes)
+    $.writeln("PercentEditbox = " + typeof PercentEditbox)
+    $.writeln("PercentEditboxes = " + typeof PercentEditboxes)
+    $.writeln("PerformanceMetricOptions = " + typeof PerformanceMetricOptions)
+    $.writeln("PICT = " + typeof PICT)
+    $.writeln("PICTs = " + typeof PICTs)
+    $.writeln("PlacedVectorProfilePolicy = " + typeof PlacedVectorProfilePolicy)
+    $.writeln("PlaceGun = " + typeof PlaceGun)
+    $.writeln("PlayOperations = " + typeof PlayOperations)
+    $.writeln("PNGColorSpaceEnum = " + typeof PNGColorSpaceEnum)
+    $.writeln("PNGExportPreference = " + typeof PNGExportPreference)
+    $.writeln("PNGExportRangeEnum = " + typeof PNGExportRangeEnum)
+    $.writeln("PNGQualityEnum = " + typeof PNGQualityEnum)
+    $.writeln("PointType = " + typeof PointType)
+    $.writeln("Polygon = " + typeof Polygon)
+    $.writeln("PolygonPreference = " + typeof PolygonPreference)
+    $.writeln("Polygons = " + typeof Polygons)
+    $.writeln("Position = " + typeof Position)
+    $.writeln("PositionalForms = " + typeof PositionalForms)
+    $.writeln("PositionAttributes = " + typeof PositionAttributes)
+    $.writeln("PostScriptLevels = " + typeof PostScriptLevels)
+    $.writeln("PPDValues = " + typeof PPDValues)
+    $.writeln("Preference = " + typeof Preference)
+    $.writeln("Preferences = " + typeof Preferences)
+    $.writeln("PreflightBookOption = " + typeof PreflightBookOption)
+    $.writeln("PreflightLayerOptions = " + typeof PreflightLayerOptions)
+    $.writeln("PreflightOption = " + typeof PreflightOption)
+    $.writeln("PreflightProcess = " + typeof PreflightProcess)
+    $.writeln("PreflightProcesses = " + typeof PreflightProcesses)
+    $.writeln("PreflightProfile = " + typeof PreflightProfile)
+    $.writeln("PreflightProfileOptions = " + typeof PreflightProfileOptions)
+    $.writeln("PreflightProfileRule = " + typeof PreflightProfileRule)
+    $.writeln("PreflightProfileRules = " + typeof PreflightProfileRules)
+    $.writeln("PreflightProfiles = " + typeof PreflightProfiles)
+    $.writeln("PreflightRule = " + typeof PreflightRule)
+    $.writeln("PreflightRuleFlag = " + typeof PreflightRuleFlag)
+    $.writeln("PreflightRuleInstance = " + typeof PreflightRuleInstance)
+    $.writeln("PreflightRuleInstances = " + typeof PreflightRuleInstances)
+    $.writeln("PreflightRules = " + typeof PreflightRules)
+    $.writeln("PreflightScopeOptions = " + typeof PreflightScopeOptions)
+    $.writeln("PreserveAppearanceFromLayoutEnum = " + typeof PreserveAppearanceFromLayoutEnum)
+    $.writeln("PreviewPagesOptions = " + typeof PreviewPagesOptions)
+    $.writeln("PreviewSizeOptions = " + typeof PreviewSizeOptions)
+    $.writeln("PreviewTypes = " + typeof PreviewTypes)
+    $.writeln("PrintBookletOption = " + typeof PrintBookletOption)
+    $.writeln("PrintBookletPrintPreference = " + typeof PrintBookletPrintPreference)
+    $.writeln("Printer = " + typeof Printer)
+    $.writeln("PrinterPreset = " + typeof PrinterPreset)
+    $.writeln("PrinterPresets = " + typeof PrinterPresets)
+    $.writeln("PrinterPresetTypes = " + typeof PrinterPresetTypes)
+    $.writeln("PrintEvent = " + typeof PrintEvent)
+    $.writeln("PrintFormBehavior = " + typeof PrintFormBehavior)
+    $.writeln("PrintFormBehaviors = " + typeof PrintFormBehaviors)
+    $.writeln("PrintLayerOptions = " + typeof PrintLayerOptions)
+    $.writeln("PrintPageOrientation = " + typeof PrintPageOrientation)
+    $.writeln("PrintPreference = " + typeof PrintPreference)
+    $.writeln("Profile = " + typeof Profile)
+    $.writeln("ProofingType = " + typeof ProofingType)
+    $.writeln("PublishCoverEnum = " + typeof PublishCoverEnum)
+    $.writeln("PublishExportPreference = " + typeof PublishExportPreference)
+    $.writeln("PublishFormatEnum = " + typeof PublishFormatEnum)
+    $.writeln("RadioButton = " + typeof RadioButton)
+    $.writeln("RadiobuttonControl = " + typeof RadiobuttonControl)
+    $.writeln("RadiobuttonControls = " + typeof RadiobuttonControls)
+    $.writeln("RadiobuttonGroup = " + typeof RadiobuttonGroup)
+    $.writeln("RadiobuttonGroups = " + typeof RadiobuttonGroups)
+    $.writeln("RadioButtons = " + typeof RadioButtons)
+    $.writeln("RangeSortOrder = " + typeof RangeSortOrder)
+    $.writeln("RasterCompressionOptions = " + typeof RasterCompressionOptions)
+    $.writeln("RasterResolutionOptions = " + typeof RasterResolutionOptions)
+    $.writeln("RealCombobox = " + typeof RealCombobox)
+    $.writeln("RealComboboxes = " + typeof RealComboboxes)
+    $.writeln("RealEditbox = " + typeof RealEditbox)
+    $.writeln("RealEditboxes = " + typeof RealEditboxes)
+    $.writeln("RecordSelection = " + typeof RecordSelection)
+    $.writeln("RecordsPerPage = " + typeof RecordsPerPage)
+    $.writeln("Rectangle = " + typeof Rectangle)
+    $.writeln("Rectangles = " + typeof Rectangles)
+    $.writeln("RenderingIntent = " + typeof RenderingIntent)
+    $.writeln("RepaginateOption = " + typeof RepaginateOption)
+    $.writeln("ResizeConstraints = " + typeof ResizeConstraints)
+    $.writeln("ResizeMethods = " + typeof ResizeMethods)
+    $.writeln("ResolveStyleClash = " + typeof ResolveStyleClash)
+    $.writeln("RestartPolicy = " + typeof RestartPolicy)
+    $.writeln("RotationDirection = " + typeof RotationDirection)
+    $.writeln("Row = " + typeof Row)
+    $.writeln("Rows = " + typeof Rows)
+    $.writeln("RowTypes = " + typeof RowTypes)
+    $.writeln("RubyAlignments = " + typeof RubyAlignments)
+    $.writeln("RubyKentenPosition = " + typeof RubyKentenPosition)
+    $.writeln("RubyOverhang = " + typeof RubyOverhang)
+    $.writeln("RubyParentSpacing = " + typeof RubyParentSpacing)
+    $.writeln("RubyTypes = " + typeof RubyTypes)
+    $.writeln("RuleDataObject = " + typeof RuleDataObject)
+    $.writeln("RuleDataObjects = " + typeof RuleDataObjects)
+    $.writeln("RuleDataType = " + typeof RuleDataType)
+    $.writeln("RulerOrigin = " + typeof RulerOrigin)
+    $.writeln("RuleWidth = " + typeof RuleWidth)
+    $.writeln("Sampling = " + typeof Sampling)
+    $.writeln("SatinSetting = " + typeof SatinSetting)
+    $.writeln("SaveOptions = " + typeof SaveOptions)
+    $.writeln("ScaleModes = " + typeof ScaleModes)
+    $.writeln("Screeening = " + typeof Screeening)
+    $.writeln("ScreenModeOptions = " + typeof ScreenModeOptions)
+    $.writeln("ScriptArg = " + typeof ScriptArg)
+    $.writeln("ScriptLanguage = " + typeof ScriptLanguage)
+    $.writeln("ScriptMenuAction = " + typeof ScriptMenuAction)
+    $.writeln("ScriptMenuActions = " + typeof ScriptMenuActions)
+    $.writeln("ScriptPreference = " + typeof ScriptPreference)
+    $.writeln("SearchModes = " + typeof SearchModes)
+    $.writeln("SearchStrategies = " + typeof SearchStrategies)
+    $.writeln("Section = " + typeof Section)
+    $.writeln("Sections = " + typeof Sections)
+    $.writeln("SelectAll = " + typeof SelectAll)
+    $.writeln("SelectionOptions = " + typeof SelectionOptions)
+    $.writeln("Sequences = " + typeof Sequences)
+    $.writeln("ShadowMode = " + typeof ShadowMode)
+    $.writeln("ShowHideFieldsBehavior = " + typeof ShowHideFieldsBehavior)
+    $.writeln("ShowHideFieldsBehaviors = " + typeof ShowHideFieldsBehaviors)
+    $.writeln("SignatureField = " + typeof SignatureField)
+    $.writeln("SignatureFields = " + typeof SignatureFields)
+    $.writeln("SignatureSizeOptions = " + typeof SignatureSizeOptions)
+    $.writeln("SingleWordJustification = " + typeof SingleWordJustification)
+    $.writeln("SizeTypeEnum = " + typeof SizeTypeEnum)
+    $.writeln("SmartGuidePreference = " + typeof SmartGuidePreference)
+    $.writeln("SmartMatchOptions = " + typeof SmartMatchOptions)
+    $.writeln("SmoothScrollingOptions = " + typeof SmoothScrollingOptions)
+    $.writeln("SnapshotBlendingModes = " + typeof SnapshotBlendingModes)
+    $.writeln("Snippet = " + typeof Snippet)
+    $.writeln("Snippets = " + typeof Snippets)
+    $.writeln("SortAssets = " + typeof SortAssets)
+    $.writeln("Sound = " + typeof Sound)
+    $.writeln("SoundBehavior = " + typeof SoundBehavior)
+    $.writeln("SoundBehaviors = " + typeof SoundBehaviors)
+    $.writeln("SoundPosterTypes = " + typeof SoundPosterTypes)
+    $.writeln("Sounds = " + typeof Sounds)
+    $.writeln("SourceFieldType = " + typeof SourceFieldType)
+    $.writeln("SourceSpaces = " + typeof SourceSpaces)
+    $.writeln("SourceType = " + typeof SourceType)
+    $.writeln("SpanColumnCountOptions = " + typeof SpanColumnCountOptions)
+    $.writeln("SpanColumnTypeOptions = " + typeof SpanColumnTypeOptions)
+    $.writeln("SpecialCharacters = " + typeof SpecialCharacters)
+    $.writeln("SpellPreference = " + typeof SpellPreference)
+    $.writeln("SplineItem = " + typeof SplineItem)
+    $.writeln("SplineItems = " + typeof SplineItems)
+    $.writeln("Spread = " + typeof Spread)
+    $.writeln("SpreadFlattenerLevel = " + typeof SpreadFlattenerLevel)
+    $.writeln("Spreads = " + typeof Spreads)
+    $.writeln("StartParagraph = " + typeof StartParagraph)
+    $.writeln("State = " + typeof State)
+    $.writeln("States = " + typeof States)
+    $.writeln("StateTypes = " + typeof StateTypes)
+    $.writeln("StaticAlignmentOptions = " + typeof StaticAlignmentOptions)
+    $.writeln("StaticText = " + typeof StaticText)
+    $.writeln("StaticTexts = " + typeof StaticTexts)
+    $.writeln("Stories = " + typeof Stories)
+    $.writeln("Story = " + typeof Story)
+    $.writeln("StoryDirectionOptions = " + typeof StoryDirectionOptions)
+    $.writeln("StoryGridDataInformation = " + typeof StoryGridDataInformation)
+    $.writeln("StoryHorizontalOrVertical = " + typeof StoryHorizontalOrVertical)
+    $.writeln("StoryPreference = " + typeof StoryPreference)
+    $.writeln("StoryTypes = " + typeof StoryTypes)
+    $.writeln("StoryWindow = " + typeof StoryWindow)
+    $.writeln("StoryWindows = " + typeof StoryWindows)
+    $.writeln("StripedStrokeStyle = " + typeof StripedStrokeStyle)
+    $.writeln("StripedStrokeStyles = " + typeof StripedStrokeStyles)
+    $.writeln("StrokeAlignment = " + typeof StrokeAlignment)
+    $.writeln("StrokeCornerAdjustment = " + typeof StrokeCornerAdjustment)
+    $.writeln("StrokeFillProxyOptions = " + typeof StrokeFillProxyOptions)
+    $.writeln("StrokeFillProxySetting = " + typeof StrokeFillProxySetting)
+    $.writeln("StrokeFillTargetOptions = " + typeof StrokeFillTargetOptions)
+    $.writeln("StrokeOrderTypes = " + typeof StrokeOrderTypes)
+    $.writeln("StrokeStyle = " + typeof StrokeStyle)
+    $.writeln("StrokeStyles = " + typeof StrokeStyles)
+    $.writeln("StrokeTransparencySetting = " + typeof StrokeTransparencySetting)
+    $.writeln("StyleConflict = " + typeof StyleConflict)
+    $.writeln("StyleExportTagMap = " + typeof StyleExportTagMap)
+    $.writeln("StyleExportTagMaps = " + typeof StyleExportTagMaps)
+    $.writeln("StyleType = " + typeof StyleType)
+    $.writeln("Submenu = " + typeof Submenu)
+    $.writeln("Submenus = " + typeof Submenus)
+    $.writeln("SubmitFormBehavior = " + typeof SubmitFormBehavior)
+    $.writeln("SubmitFormBehaviors = " + typeof SubmitFormBehaviors)
+    $.writeln("Swatch = " + typeof Swatch)
+    $.writeln("Swatches = " + typeof Swatches)
+    $.writeln("SWFBackgroundOptions = " + typeof SWFBackgroundOptions)
+    $.writeln("SWFCurveQualityValue = " + typeof SWFCurveQualityValue)
+    $.writeln("SWFExportPreference = " + typeof SWFExportPreference)
+    $.writeln("SyncConflictResolution = " + typeof SyncConflictResolution)
+    $.writeln("Table = " + typeof Table)
+    $.writeln("TableDirectionOptions = " + typeof TableDirectionOptions)
+    $.writeln("TableFormattingOptions = " + typeof TableFormattingOptions)
+    $.writeln("Tables = " + typeof Tables)
+    $.writeln("TableStyle = " + typeof TableStyle)
+    $.writeln("TableStyleGroup = " + typeof TableStyleGroup)
+    $.writeln("TableStyleGroups = " + typeof TableStyleGroups)
+    $.writeln("TableStyleMapping = " + typeof TableStyleMapping)
+    $.writeln("TableStyleMappings = " + typeof TableStyleMappings)
+    $.writeln("TableStyles = " + typeof TableStyles)
+    $.writeln("TabStop = " + typeof TabStop)
+    $.writeln("TabStopAlignment = " + typeof TabStopAlignment)
+    $.writeln("TabStops = " + typeof TabStops)
+    $.writeln("TaggedPDFPreference = " + typeof TaggedPDFPreference)
+    $.writeln("TaggedPDFStructureOrderOptions = " + typeof TaggedPDFStructureOrderOptions)
+    $.writeln("TaggedTextExportPreference = " + typeof TaggedTextExportPreference)
+    $.writeln("TaggedTextImportPreference = " + typeof TaggedTextImportPreference)
+    $.writeln("TagRaster = " + typeof TagRaster)
+    $.writeln("TagTextExportCharacterSet = " + typeof TagTextExportCharacterSet)
+    $.writeln("TagTextForm = " + typeof TagTextForm)
+    $.writeln("TagTransparency = " + typeof TagTransparency)
+    $.writeln("TagType = " + typeof TagType)
+    $.writeln("TagVector = " + typeof TagVector)
+    $.writeln("TaskAlertType = " + typeof TaskAlertType)
+    $.writeln("TaskState = " + typeof TaskState)
+    $.writeln("Text = " + typeof Text)
+    $.writeln("TextBox = " + typeof TextBox)
+    $.writeln("TextBoxes = " + typeof TextBoxes)
+    $.writeln("TextColumn = " + typeof TextColumn)
+    $.writeln("TextColumns = " + typeof TextColumns)
+    $.writeln("TextDefault = " + typeof TextDefault)
+    $.writeln("TextDirection = " + typeof TextDirection)
+    $.writeln("TextEditbox = " + typeof TextEditbox)
+    $.writeln("TextEditboxes = " + typeof TextEditboxes)
+    $.writeln("TextEditingPreference = " + typeof TextEditingPreference)
+    $.writeln("TextExportCharacterSet = " + typeof TextExportCharacterSet)
+    $.writeln("TextExportPreference = " + typeof TextExportPreference)
+    $.writeln("TextFrame = " + typeof TextFrame)
+    $.writeln("TextFrameContents = " + typeof TextFrameContents)
+    $.writeln("TextFrameFootnoteOptionsObject = " + typeof TextFrameFootnoteOptionsObject)
+    $.writeln("TextFramePreference = " + typeof TextFramePreference)
+    $.writeln("TextFrames = " + typeof TextFrames)
+    $.writeln("TextImportCharacterSet = " + typeof TextImportCharacterSet)
+    $.writeln("TextImportPreference = " + typeof TextImportPreference)
+    $.writeln("TextPath = " + typeof TextPath)
+    $.writeln("TextPathEffects = " + typeof TextPathEffects)
+    $.writeln("TextPaths = " + typeof TextPaths)
+    $.writeln("TextPreference = " + typeof TextPreference)
+    $.writeln("Texts = " + typeof Texts)
+    $.writeln("TextStrokeAlign = " + typeof TextStrokeAlign)
+    $.writeln("TextStyleRange = " + typeof TextStyleRange)
+    $.writeln("TextStyleRanges = " + typeof TextStyleRanges)
+    $.writeln("TextTypeAlignments = " + typeof TextTypeAlignments)
+    $.writeln("TextVariable = " + typeof TextVariable)
+    $.writeln("TextVariableInstance = " + typeof TextVariableInstance)
+    $.writeln("TextVariableInstances = " + typeof TextVariableInstances)
+    $.writeln("TextVariables = " + typeof TextVariables)
+    $.writeln("TextWrapModes = " + typeof TextWrapModes)
+    $.writeln("TextWrapPreference = " + typeof TextWrapPreference)
+    $.writeln("TextWrapSideOptions = " + typeof TextWrapSideOptions)
+    $.writeln("ThreadedTextFrameTextOptions = " + typeof ThreadedTextFrameTextOptions)
+    $.writeln("ThumbsPerPage = " + typeof ThumbsPerPage)
+    $.writeln("TilingTypes = " + typeof TilingTypes)
+    $.writeln("TimingGroup = " + typeof TimingGroup)
+    $.writeln("TimingGroups = " + typeof TimingGroups)
+    $.writeln("TimingList = " + typeof TimingList)
+    $.writeln("TimingLists = " + typeof TimingLists)
+    $.writeln("TimingSetting = " + typeof TimingSetting)
+    $.writeln("TimingTarget = " + typeof TimingTarget)
+    $.writeln("TimingTargets = " + typeof TimingTargets)
+    $.writeln("Tint = " + typeof Tint)
+    $.writeln("Tints = " + typeof Tints)
+    $.writeln("TOCStyle = " + typeof TOCStyle)
+    $.writeln("TOCStyleEntries = " + typeof TOCStyleEntries)
+    $.writeln("TOCStyleEntry = " + typeof TOCStyleEntry)
+    $.writeln("TOCStyles = " + typeof TOCStyles)
+    $.writeln("ToolBox = " + typeof ToolBox)
+    $.writeln("ToolsPanelOptions = " + typeof ToolsPanelOptions)
+    $.writeln("ToolTipOptions = " + typeof ToolTipOptions)
+    $.writeln("Topic = " + typeof Topic)
+    $.writeln("Topics = " + typeof Topics)
+    $.writeln("TrackChangesPreference = " + typeof TrackChangesPreference)
+    $.writeln("TransformationMatrices = " + typeof TransformationMatrices)
+    $.writeln("TransformationMatrix = " + typeof TransformationMatrix)
+    $.writeln("TransformAttributeOption = " + typeof TransformAttributeOption)
+    $.writeln("TransformPositionReference = " + typeof TransformPositionReference)
+    $.writeln("TransformPreference = " + typeof TransformPreference)
+    $.writeln("TransparencyPreference = " + typeof TransparencyPreference)
+    $.writeln("TransparencySetting = " + typeof TransparencySetting)
+    $.writeln("TrapEndTypes = " + typeof TrapEndTypes)
+    $.writeln("TrapImagePlacementTypes = " + typeof TrapImagePlacementTypes)
+    $.writeln("Trapping = " + typeof Trapping)
+    $.writeln("TrapPreset = " + typeof TrapPreset)
+    $.writeln("TrapPresets = " + typeof TrapPresets)
+    $.writeln("TypeContextualUiPreference = " + typeof TypeContextualUiPreference)
+    $.writeln("UIColors = " + typeof UIColors)
+    $.writeln("UITools = " + typeof UITools)
+    $.writeln("UndoModes = " + typeof UndoModes)
+    $.writeln("UpdateLinkOptions = " + typeof UpdateLinkOptions)
+    $.writeln("UserDictionaries = " + typeof UserDictionaries)
+    $.writeln("UserDictionary = " + typeof UserDictionary)
+    $.writeln("UserInteractionLevels = " + typeof UserInteractionLevels)
+    $.writeln("ValidationError = " + typeof ValidationError)
+    $.writeln("ValidationErrors = " + typeof ValidationErrors)
+    $.writeln("VariableNumberingStyles = " + typeof VariableNumberingStyles)
+    $.writeln("VariableScopes = " + typeof VariableScopes)
+    $.writeln("VariableTypes = " + typeof VariableTypes)
+    $.writeln("VersionCueSyncStatus = " + typeof VersionCueSyncStatus)
+    $.writeln("VersionState = " + typeof VersionState)
+    $.writeln("VerticalAlignment = " + typeof VerticalAlignment)
+    $.writeln("VerticalJustification = " + typeof VerticalJustification)
+    $.writeln("VerticallyRelativeTo = " + typeof VerticallyRelativeTo)
+    $.writeln("ViewDisplaySettings = " + typeof ViewDisplaySettings)
+    $.writeln("ViewPreference = " + typeof ViewPreference)
+    $.writeln("ViewZoomBehavior = " + typeof ViewZoomBehavior)
+    $.writeln("ViewZoomBehaviors = " + typeof ViewZoomBehaviors)
+    $.writeln("ViewZoomStyle = " + typeof ViewZoomStyle)
+    $.writeln("WarichuAlignment = " + typeof WarichuAlignment)
+    $.writeln("WatermarkHorizontalPositionEnum = " + typeof WatermarkHorizontalPositionEnum)
+    $.writeln("WatermarkPreference = " + typeof WatermarkPreference)
+    $.writeln("WatermarkVerticalPositionEnum = " + typeof WatermarkVerticalPositionEnum)
+    $.writeln("WhenScalingOptions = " + typeof WhenScalingOptions)
+    $.writeln("Widget = " + typeof Widget)
+    $.writeln("Widgets = " + typeof Widgets)
+    $.writeln("Window = " + typeof Window)
+    $.writeln("Windows = " + typeof Windows)
+    $.writeln("WMF = " + typeof WMF)
+    $.writeln("WMFs = " + typeof WMFs)
+    $.writeln("Word = " + typeof Word)
+    $.writeln("WordRTFImportPreference = " + typeof WordRTFImportPreference)
+    $.writeln("Words = " + typeof Words)
+    $.writeln("XFLExportPreference = " + typeof XFLExportPreference)
+    $.writeln("XFLRasterizeFormatOptions = " + typeof XFLRasterizeFormatOptions)
+    $.writeln("XMLAttribute = " + typeof XMLAttribute)
+    $.writeln("XMLAttributes = " + typeof XMLAttributes)
+    $.writeln("XMLComment = " + typeof XMLComment)
+    $.writeln("XMLComments = " + typeof XMLComments)
+    $.writeln("XMLElement = " + typeof XMLElement)
+    $.writeln("XMLElementLocation = " + typeof XMLElementLocation)
+    $.writeln("XMLElementPosition = " + typeof XMLElementPosition)
+    $.writeln("XMLElements = " + typeof XMLElements)
+    $.writeln("XMLExportMap = " + typeof XMLExportMap)
+    $.writeln("XMLExportMaps = " + typeof XMLExportMaps)
+    $.writeln("XMLExportPreference = " + typeof XMLExportPreference)
+    $.writeln("XMLExportUntaggedTablesFormat = " + typeof XMLExportUntaggedTablesFormat)
+    $.writeln("XMLFileEncoding = " + typeof XMLFileEncoding)
+    $.writeln("XMLImportMap = " + typeof XMLImportMap)
+    $.writeln("XMLImportMaps = " + typeof XMLImportMaps)
+    $.writeln("XMLImportPreference = " + typeof XMLImportPreference)
+    $.writeln("XMLImportStyles = " + typeof XMLImportStyles)
+    $.writeln("XMLInstruction = " + typeof XMLInstruction)
+    $.writeln("XMLInstructions = " + typeof XMLInstructions)
+    $.writeln("XMLItem = " + typeof XMLItem)
+    $.writeln("XMLItems = " + typeof XMLItems)
+    $.writeln("XMLPreference = " + typeof XMLPreference)
+    $.writeln("XMLRuleMatchData = " + typeof XMLRuleMatchData)
+    $.writeln("XMLRuleProcessor = " + typeof XMLRuleProcessor)
+    $.writeln("XMLRuleProcessors = " + typeof XMLRuleProcessors)
+    $.writeln("XmlStories = " + typeof XmlStories)
+    $.writeln("XmlStory = " + typeof XmlStory)
+    $.writeln("XMLTag = " + typeof XMLTag)
+    $.writeln("XMLTags = " + typeof XMLTags)
+    $.writeln("XMLTransformFile = " + typeof XMLTransformFile)
+    $.writeln("XMLViewPreference = " + typeof XMLViewPreference)
+    $.writeln("ZoomOptions = " + typeof ZoomOptions)
+  },
+  "illustrator": {
+    "AlternateGlyphsForm": false,
+    "AntiAliasingMethod": false,
+    "Application": false,
+    "Artboard": false,
+    "Artboards": false,
+    "ArtClippingOption": false,
+    "ArtStyle": false,
+    "ArtStyles": false,
+    "Asset": false,
+    "Assets": false,
+    "AutoCADColors": false,
+    "AutoCADCompatibility": false,
+    "AutoCADExportFileFormat": false,
+    "AutoCADExportOption": false,
+    "AutoCADGlobalScaleOption": false,
+    "AutoCADRasterFormat": false,
+    "AutoCADUnit": false,
+    "AutoKernType": false,
+    "AutoLeadingType": false,
+    "BaselineDirectionType": false,
+    "BlendAnimationType": false,
+    "BlendModes": false,
+    "BlendsExpandPolicy": false,
+    "Brush": false,
+    "Brushes": false,
+    "BurasagariTypeEnum": false,
+    "CaseChangeType": false,
+    "CharacterAttributes": false,
+    "Characters": false,
+    "CharacterStyle": false,
+    "CharacterStyles": false,
+    "CMYKColor": false,
+    "Color": false,
+    "ColorConversion": false,
+    "ColorConvertPurpose": false,
+    "ColorDestination": false,
+    "ColorDitherMethod": false,
+    "ColorModel": false,
+    "ColorProfile": false,
+    "ColorReductionMethod": false,
+    "ColorType": false,
+    "Compatibility": false,
+    "ComposerEngineType": false,
+    "CompoundPathItem": false,
+    "CompoundPathItems": false,
+    "CompressionQuality": false,
+    "CoordinateSystem": false,
+    "CropOptions": false,
+    "DataSet": false,
+    "DataSets": false,
+    "DiacVPosType": false,
+    "DigitSetType": false,
+    "Dimensions": false,
+    "DirOverrideType": false,
+    "Document": false,
+    "DocumentArtboardLayout": false,
+    "DocumentColorSpace": false,
+    "DocumentLayoutStyle": false,
+    "DocumentPreset": false,
+    "DocumentPresetType": false,
+    "DocumentPreviewMode": false,
+    "DocumentRasterResolution": false,
+    "Documents": false,
+    "DocumentTransparencyGrid": false,
+    "DocumentType": false,
+    "DownsampleMethod": false,
+    "EmbeddedItems": false,
+    "EmbedItem": false,
+    "EPSPostScriptLevelEnum": false,
+    "EPSPreview": false,
+    "EPSSaveOptions": false,
+    "ExportForScreensItemToExport": false,
+    "ExportForScreensOptionsJPEG": false,
+    "ExportForScreensOptionsPNG24": false,
+    "ExportForScreensOptionsPNG8": false,
+    "ExportForScreensOptionsWebOptimizedSVG": false,
+    "ExportForScreensPDFOptions": false,
+    "ExportForScreensScaleType": false,
+    "ExportForScreensType": false,
+    "ExportOptionsAutoCAD": false,
+    "ExportOptionsFlash": false,
+    "ExportOptionsGIF": false,
+    "ExportOptionsJPEG": false,
+    "ExportOptionsPhotoshop": false,
+    "ExportOptionsPNG24": false,
+    "ExportOptionsPNG8": false,
+    "ExportOptionsSVG": false,
+    "ExportOptionsTIFF": false,
+    "ExportOptionsWebOptimizedSVG": false,
+    "ExportType": false,
+    "FigureStyleType": false,
+    "FiltersPreservePolicy": false,
+    "FirstBaselineType": false,
+    "FlashExportStyle": false,
+    "FlashExportVersion": false,
+    "FlashImageFormat": false,
+    "FlashJPEGMethod": false,
+    "FlashPlaybackSecurity": false,
+    "FontBaselineOption": false,
+    "FontCapsOption": false,
+    "FontOpenTypePositionOption": false,
+    "FontSubstitutionPolicy": false,
+    "FXGSaveOptions": false,
+    "FXGVersion": false,
+    "Gradient": false,
+    "GradientColor": false,
+    "Gradients": false,
+    "GradientsPreservePolicy": false,
+    "GradientStop": false,
+    "GradientStops": false,
+    "GradientType": false,
+    "GraphItem": false,
+    "GraphItems": false,
+    "GrayColor": false,
+    "GroupItem": false,
+    "GroupItems": false,
+    "IllustratorSaveOptions": false,
+    "ImageCaptureOptions": false,
+    "ImageColorSpace": false,
+    "Ink": false,
+    "InkInfo": false,
+    "InkPrintStatus": false,
+    "InkType": false,
+    "InsertionPoint": false,
+    "InsertionPoints": false,
+    "JavaScriptExecutionMode": false,
+    "JPEGCompressionMethodType": false,
+    "Justification": false,
+    "KashidasType": false,
+    "KashidaWidthType": false,
+    "KinsokuOrderEnum": false,
+    "KnockoutState": false,
+    "LabColor": false,
+    "LanguageType": false,
+    "Layer": false,
+    "LayerOrderType": false,
+    "Layers": false,
+    "LegacyTextItem": false,
+    "LegacyTextItems": false,
+    "LibraryType": false,
+    "Lines": false,
+    "Matrix": false,
+    "MeshItem": false,
+    "MeshItems": false,
+    "MonochromeCompression": false,
+    "NoColor": false,
+    "NonNativeItem": false,
+    "NonNativeItems": false,
+    "OpenOptions": false,
+    "OpenOptionsAutoCAD": false,
+    "OpenOptionsPDF": false,
+    "OpenOptionsPhotoshop": false,
+    "OutputFlattening": false,
+    "PageItem": false,
+    "PageItems": false,
+    "PageMarksTypes": false,
+    "Paper": false,
+    "PaperInfo": false,
+    "ParagraphAttributes": false,
+    "ParagraphDirectionType": false,
+    "Paragraphs": false,
+    "ParagraphStyle": false,
+    "ParagraphStyles": false,
+    "PathItem": false,
+    "PathItems": false,
+    "PathPoint": false,
+    "PathPoints": false,
+    "PathPointSelection": false,
+    "Pattern": false,
+    "PatternColor": false,
+    "Patterns": false,
+    "PDFBoxType": false,
+    "PDFChangesAllowedEnum": false,
+    "PDFCompatibility": false,
+    "PDFOverprint": false,
+    "PDFPrintAllowedEnum": false,
+    "PDFSaveOptions": false,
+    "PDFTrimMarkWeight": false,
+    "PDFXStandard": false,
+    "PerspectiveGridPlaneType": false,
+    "PhotoshopCompatibility": false,
+    "PlacedItem": false,
+    "PlacedItems": false,
+    "PluginItem": false,
+    "PluginItems": false,
+    "Point": false,
+    "PointType": false,
+    "PolarityValues": false,
+    "PostScriptImageCompressionType": false,
+    "PPDFile": false,
+    "PPDFileInfo": false,
+    "Preferences": false,
+    "PrintArtworkDesignation": false,
+    "PrintColorIntent": false,
+    "PrintColorManagementOptions": false,
+    "PrintColorProfile": false,
+    "PrintColorSeparationMode": false,
+    "PrintColorSeparationOptions": false,
+    "PrintCoordinateOptions": false,
+    "Printer": false,
+    "PrinterColorMode": false,
+    "PrinterInfo": false,
+    "PrinterPostScriptLevelEnum": false,
+    "PrinterTypeEnum": false,
+    "PrintFlattenerOptions": false,
+    "PrintFontDownloadMode": false,
+    "PrintFontOptions": false,
+    "PrintingBounds": false,
+    "PrintJobOptions": false,
+    "PrintOptions": false,
+    "PrintOrientation": false,
+    "PrintPageMarksOptions": false,
+    "PrintPaperOptions": false,
+    "PrintPosition": false,
+    "PrintPostScriptOptions": false,
+    "PrintTiling": false,
+    "RasterEffectOptions": false,
+    "RasterImageLocation": false,
+    "RasterItem": false,
+    "RasterItems": false,
+    "RasterizationColorModel": false,
+    "RasterizeOptions": false,
+    "RasterLinkState": false,
+    "Rectangle": false,
+    "RGBColor": false,
+    "RulerUnits": false,
+    "SaveOptions": false,
+    "Screen": false,
+    "ScreenInfo": false,
+    "ScreenMode": false,
+    "ScreenSpotFunction": false,
+    "Spot": false,
+    "SpotColor": false,
+    "SpotColorKind": false,
+    "Spots": false,
+    "Stories": false,
+    "Story": false,
+    "StrokeCap": false,
+    "StrokeJoin": false,
+    "StyleRunAlignmentType": false,
+    "SVGCSSPropertyLocation": false,
+    "SVGDocumentEncoding": false,
+    "SVGDTDVersion": false,
+    "SVGFontSubsetting": false,
+    "SVGFontType": false,
+    "SVGIdType": false,
+    "Swatch": false,
+    "Swatches": false,
+    "SwatchGroup": false,
+    "SwatchGroups": false,
+    "Symbol": false,
+    "SymbolItem": false,
+    "SymbolItems": false,
+    "SymbolRegistrationPoint": false,
+    "Symbols": false,
+    "TabStopAlignment": false,
+    "TabStopInfo": false,
+    "Tag": false,
+    "Tags": false,
+    "TextAntialias": false,
+    "TextFont": false,
+    "TextFonts": false,
+    "TextFrameItem": false,
+    "TextFrameItems": false,
+    "TextOrientation": false,
+    "TextPath": false,
+    "TextPreservePolicy": false,
+    "TextRange": false,
+    "TextRanges": false,
+    "TextType": false,
+    "TIFFByteOrder": false,
+    "TracingColorType": false,
+    "TracingMethodType": false,
+    "TracingModeType": false,
+    "TracingObject": false,
+    "TracingOptions": false,
+    "Transformation": false,
+    "TrappingType": false,
+    "UserInteractionLevel": false,
+    "Variable": false,
+    "VariableKind": false,
+    "Variables": false,
+    "View": false,
+    "Views": false,
+    "ViewType": false,
+    "WariChuJustificationType": false,
+    "Words": false,
+    "ZOrderMethod": false
+  },
+  "photoshop": {
+    "ActionDescriptor": false,
+    "ActionList": false,
+    "ActionReference": false,
+    "AdjustmentReference": false,
+    "alert": false,
+    "AnchorPosition": false,
+    "AntiAlias": false,
+    "app": false,
+    "Application": false,
+    "ArtLayer": false,
+    "ArtLayers": false,
+    "AutoKernType": false,
+    "BatchDestinationType": false,
+    "BatchOptions": false,
+    "BitmapConversionOptions": false,
+    "BitmapConversionType": false,
+    "BitmapHalfToneType": false,
+    "BitsPerChannelType": false,
+    "BlendMode": false,
+    "BMPDepthType": false,
+    "BMPSaveOptions": false,
+    "BridgeTalk": false,
+    "ByteOrderType": false,
+    "CameraRAWOpenOptions": false,
+    "CameraRAWSettingsType": false,
+    "CameraRAWSize": false,
+    "Case": false,
+    "ChangeMode": false,
+    "Channel": false,
+    "Channels": false,
+    "ChannelType": false,
+    "CMYKColor": false,
+    "Color": false,
+    "ColorBlendMode": false,
+    "ColorModel": false,
+    "ColorPicker": false,
+    "ColorProfileType": false,
+    "ColorReductionType": false,
+    "ColorSampler": false,
+    "ColorSamplers": false,
+    "ColorSpaceType": false,
+    "confirm": false,
+    "ContactSheetOptions": false,
+    "CopyrightedType": false,
+    "CountItem": false,
+    "CountItems": false,
+    "CreateFields": false,
+    "CropToType": false,
+    "DCS1_SaveOptions": false,
+    "DCS2_SaveOptions": false,
+    "DCSType": false,
+    "decodeURI": false,
+    "decodeURIComponent": false,
+    "DepthMapSource": false,
+    "DescValueType": false,
+    "DialogModes": false,
+    "DICOMOpenOptions": false,
+    "Direction": false,
+    "DisplacementMapType": false,
+    "DitherType": false,
+    "DocPositionStyle": false,
+    "Document": false,
+    "DocumentConversionOptions": false,
+    "DocumentFill": false,
+    "DocumentInfo": false,
+    "DocumentMode": false,
+    "DocumentPrintSettings": false,
+    "Documents": false,
+    "EditLogItemsType": false,
+    "ElementPlacement": false,
+    "EliminateFields": false,
+    "encodeURI": false,
+    "encodeURIComponent": false,
+    "EPSSaveOptions": false,
+    "escape": false,
+    "eval": false,
+    "ExportOptions": false,
+    "ExportOptionsIllustrator": false,
+    "ExportOptionsSaveForWeb": false,
+    "ExportType": false,
+    "FileNamingType": false,
+    "FontPreviewType": false,
+    "FontSize": false,
+    "ForcedColors": false,
+    "FormatOptionsType": false,
+    "GalleryBannerOptions": false,
+    "GalleryConstrainType": false,
+    "GalleryCustomColorOptions": false,
+    "GalleryFontType": false,
+    "GalleryImagesOptions": false,
+    "GalleryOptions": false,
+    "GallerySecurityOptions": false,
+    "GallerySecurityTextColorType": false,
+    "GallerySecurityTextPositionType": false,
+    "GallerySecurityTextRotateType": false,
+    "GallerySecurityType": false,
+    "GalleryThumbnailOptions": false,
+    "GalleryThumbSizeType": false,
+    "GenericEPSOpenOptions": false,
+    "GenericPDFOpenOptions": false,
+    "Geometry": false,
+    "GIFSaveOptions": false,
+    "GrayColor": false,
+    "GridLineStyle": false,
+    "GridSize": false,
+    "Guide": false,
+    "GuideLineStyle": false,
+    "Guides": false,
+    "HistoryState": false,
+    "HistoryStates": false,
+    "HSBColor": false,
+    "IllustratorPathType": false,
+    "IndexedConversionOptions": false,
+    "Infinity": false,
+    "Intent": false,
+    "isFinite": false,
+    "isNaN": false,
+    "isXMLName": false,
+    "JavaScriptExecutionMode": false,
+    "JPEGSaveOptions": false,
+    "Justification": false,
+    "LabColor": false,
+    "Language": false,
+    "Layer": false,
+    "LayerComp": false,
+    "LayerCompressionType": false,
+    "LayerComps": false,
+    "LayerKind": false,
+    "Layers": false,
+    "LayerSet": false,
+    "LayerSets": false,
+    "LensType": false,
+    "localize": false,
+    "MacExtensionType": false,
+    "MacPreviewType": false,
+    "MagnificationType": false,
+    "MatteType": false,
+    "MeasurementLog": false,
+    "MeasurementRange": false,
+    "MeasurementScale": false,
+    "MeasurementSource": false,
+    "NaN": false,
+    "NewDocumentMode": false,
+    "NoColor": false,
+    "NoiseDistribution": false,
+    "Notifier": false,
+    "Notifiers": false,
+    "OffsetUndefinedAreas": false,
+    "OpenDocumentMode": false,
+    "OpenDocumentType": false,
+    "OpenOptions": false,
+    "OperatingSystem": false,
+    "Orientation": false,
+    "OtherPaintingCursors": false,
+    "PaintingCursors": false,
+    "PaletteType": false,
+    "parseFloat": false,
+    "parseInt": false,
+    "PathItem": false,
+    "PathItems": false,
+    "PathKind": false,
+    "PathPoint": false,
+    "PathPointInfo": false,
+    "PathPoints": false,
+    "PDFCompatibilityType": false,
+    "PDFEncodingType": false,
+    "PDFResampleType": false,
+    "PDFSaveOptions": false,
+    "PDFStandardType": false,
+    "PhotoCDColorSpace": false,
+    "PhotoCDOpenOptions": false,
+    "PhotoCDSize": false,
+    "PhotoshopSaveOptions": false,
+    "PICTBitsPerPixels": false,
+    "PICTCompression": false,
+    "PICTFileSaveOptions": false,
+    "PICTResourceSaveOptions": false,
+    "PicturePackageOptions": false,
+    "PicturePackageTextType": false,
+    "PixarSaveOptions": false,
+    "PNGSaveOptions": false,
+    "Point": false,
+    "PointKind": false,
+    "PointType": false,
+    "PolarConversionType": false,
+    "Preferences": false,
+    "PresentationOptions": false,
+    "PrintColorHandling": false,
+    "prompt": false,
+    "PurgeTarget": false,
+    "QueryStateType": false,
+    "RadialBlurMethod": false,
+    "RadialBlurQuality": false,
+    "RasterizeType": false,
+    "RawFormatOpenOptions": false,
+    "RawSaveOptions": false,
+    "Rectangle": false,
+    "ReferenceFormType": false,
+    "ResampleMethod": false,
+    "ResetTarget": false,
+    "RGBColor": false,
+    "RippleSize": false,
+    "SaveBehavior": false,
+    "SaveDocumentType": false,
+    "SaveEncoding": false,
+    "SaveLogItemsType": false,
+    "SaveOptions": false,
+    "SaveOptionsType": false,
+    "Selection": false,
+    "SelectionType": false,
+    "setDefaultXMLNamespace": false,
+    "SGIRGBSaveOptions": false,
+    "ShapeOperation": false,
+    "SmartBlurMode": false,
+    "SmartBlurQuality": false,
+    "SolidColor": false,
+    "SourceSpaceType": false,
+    "SpherizeMode": false,
+    "StrikeThruType": false,
+    "StrokeLocation": false,
+    "SubPathInfo": false,
+    "SubPathItem": false,
+    "SubPathItems": false,
+    "TargaBitsPerPixels": false,
+    "TargaSaveOptions": false,
+    "TextComposer": false,
+    "TextFont": false,
+    "TextFonts": false,
+    "TextItem": false,
+    "TextType": false,
+    "TextureType": false,
+    "TiffEncodingType": false,
+    "TiffSaveOptions": false,
+    "ToolType": false,
+    "TransitionType": false,
+    "TrimType": false,
+    "TypeUnits": false,
+    "undefined": false,
+    "UndefinedAreas": false,
+    "UnderlineType": false,
+    "unescape": false,
+    "uneval": false,
+    "Units": false,
+    "Urgency": false,
+    "WarpStyle": false,
+    "WaveType": false,
+    "WhiteBalanceType": false,
+    "XMPMetadata": false,
+    "ZigZagType": false
+  },
+  "scriptui": {
+    "Bounds": false,
+    "Button": false,
+    "Checkbox": false,
+    "Dimension": false,
+    "DrawState": false,
+    "DropDownList": false,
+    "EditText": false,
+    "Environment": false,
+    "Event": false,
+    "Events": false,
+    "FlashPlayer": false,
+    "Group": false,
+    "IconButton": false,
+    "KeyboardState": false,
+    "LayoutManager": false,
+    "ListBox": false,
+    "ListItem": false,
+    "Panel": false,
+    "Point": false,
+    "Progressbar": false,
+    "RadioButton": false,
+    "ScriptUI": false,
+    "ScriptUIBrush": false,
+    "ScriptUIFont": false,
+    "ScriptUIGraphics": false,
+    "ScriptUIImage": false,
+    "ScriptUIPath": false,
+    "ScriptUIPen": false,
+    "Scrollbar": false,
+    "Slider": false,
+    "StaticText": false,
+    "TreeView": false,
+    "UIEvent": false,
+    "Window": false
+  }
+}
