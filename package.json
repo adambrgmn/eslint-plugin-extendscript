@@ -18,8 +18,13 @@
     "travis-after-success": "frans-scripts travis-after-success"
   },
   "devDependencies": {
+    "cross-spawn": "^5.1.0",
     "cz-conventional-changelog": "^2.1.0",
-    "frans-scripts": "^1.0.1"
+    "eslint": "^4.12.1",
+    "frans-scripts": "^1.0.1",
+    "meow": "^4.0.0",
+    "ora": "^1.3.0",
+    "rimraf": "^2.6.2"
   },
   "config": {
     "commitizen": {
