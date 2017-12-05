@@ -5,26 +5,26 @@ const fs = require('fs');
 const { promisify } = require('util');
 const xml2js = require('xml2js'); // eslint-disable-line
 const ora = require('ora'); // eslint-disable-line
+const existingGlobals = require('../src/globals.json');
 
 const parseString = promisify(xml2js.parseString);
 const readFile = promisify(fs.readFile);
 const writeFile = promisify(fs.writeFile);
 
-const reduceToName = (acc, def) => {
-  const { name } = def.$;
-  if (name !== 'global') return Object.assign({}, acc, { [name]: false });
+const reduceToName = arr =>
+  arr.reduce((acc, def) => {
+    const { name } = def.$;
+    if (name !== 'global') return { ...acc, [name]: false };
 
-  const properties = def.elements[0].property.reduce(reduceToName, {});
-  const methods = def.elements[0].method.reduce(reduceToName, {});
-  return Object.assign({}, acc, properties, methods);
-};
-
-const reduceClassDef = arr => arr.reduce(reduceToName, {});
+    const properties = reduceToName(def.elements[0].property);
+    const methods = reduceToName(def.elements[0].method);
+    return { ...acc, ...properties, ...methods };
+  }, {});
 
 const sortObj = obj =>
   Object.keys(obj)
     .sort((a, b) => a.toLowerCase().localeCompare(b.toLowerCase()))
-    .reduce((acc, key) => Object.assign({}, acc, { [key]: obj[key] }), {});
+    .reduce((acc, key) => ({ ...acc, [key]: obj[key] }), {});
 
 const staticJsGlobals = {
   // Fetched from $.global in Extendscript Tools and filtered
@@ -54,50 +54,65 @@ async function main() {
   const spinner = ora('Generating data from xml').start();
 
   try {
-    const data = {
-      base:
-        '/Library/Application Support/Adobe/Scripting Dictionaries CC/CommonFiles/javascript.xml',
-      indesign:
-        '/Users/adam/Library/Preferences/ExtendScript Toolkit/4.0/omv$indesign-13.064$13.0.xml',
-      illustrator:
-        '/Library/Application Support/Adobe/Scripting Dictionaries CC/Illustrator 2018/omv.xml',
-      photoshop:
-        '/Library/Application Support/Adobe/Scripting Dictionaries CC/photoshop/omv.xml',
-      scriptui:
-        '/Library/Application Support/Adobe/Scripting Dictionaries CC/CommonFiles/scriptui.xml',
+    const scriptingDir = path.join(
+      '/Library',
+      'Application Support',
+      'Adobe',
+      'Scripting Dictionaries CC',
+    );
+
+    const paths = {
+      base: path.join(scriptingDir, 'CommonFiles', 'javascript.xml'),
+      indesign: path.join(
+        process.env.HOME,
+        '/Library',
+        'Preferences',
+        'ExtendScript Toolkit',
+        '4.0',
+        'omv$indesign-13.064$13.0.xml',
+      ),
+      illustrator: path.join(scriptingDir, 'Illustrator 2018', 'omv.xml'),
+      photoshop: path.join(scriptingDir, 'photoshop', 'omv.xml'),
+      scriptui: path.join(scriptingDir, 'CommonFiles', 'scriptui.xml'),
     };
 
-    const xml = await Promise.all(
-      Object.keys(data).map(async key => {
-        const p = data[key];
-        const xmlString = await readFile(p, 'utf8');
-        return [key, xmlString];
-      }),
-    );
-
     const parsedXml = await Promise.all(
-      xml.map(async ([key, xmlString]) => {
-        const parsed = await parseString(xmlString);
-        return [key, parsed];
+      Object.keys(paths).map(async key => {
+        try {
+          const p = paths[key];
+          const xml = await readFile(p, 'utf8');
+          const parsed = await parseString(xml);
+          return [key, parsed];
+        } catch (err) {
+          return null;
+        }
       }),
     );
 
-    const globals = parsedXml.reduce((acc, [key, x]) => {
+    const globals = parsedXml.filter(Boolean).reduce((acc, [key, x]) => {
       const { classdef } = x.dictionary.package[0];
-      const keys = reduceClassDef(classdef);
+      const keys = reduceToName(classdef);
 
-      if (key === 'javascript') {
-        return Object.assign({}, acc, {
-          [key]: sortObj(Object.assign({}, keys, staticJsGlobals)),
-        });
+      if (key === 'base') {
+        return {
+          ...acc,
+          [key]: sortObj({
+            ...existingGlobals[key],
+            ...keys,
+            ...staticJsGlobals,
+          }),
+        };
       }
 
-      return Object.assign({}, acc, { [key]: sortObj(keys) });
+      return {
+        ...acc,
+        [key]: sortObj({ ...existingGlobals[key], ...keys }),
+      };
     }, {});
 
     await writeFile(
-      path.join(__dirname, 'test.json'),
-      JSON.stringify(globals, null, 2),
+      path.join(__dirname, '..', 'src', 'globals.json'),
+      JSON.stringify({ ...existingGlobals, ...globals }, null, 2),
       'utf8',
     );
 

@@ -6,9 +6,7 @@
   "repository": "git@github.com:adambrgmn/eslint-plugin-extendscript.git",
   "author": "Adam Bergman <adam@fransvilhelm.com>",
   "license": "MIT",
-  "keywords": [
-    "eslint"
-  ],
+  "keywords": ["eslint"],
   "scripts": {
     "build": "frans-scripts build",
     "test": "frans-scripts test",
@@ -17,6 +15,7 @@
     "validate": "frans-scripts validate",
     "add-contributor": "frans-scripts contributors add",
     "precommit": "frans-scripts precommit",
+    "get-globals": "node scripts/get-extendscript-globals.js",
     "travis-after-success": "frans-scripts travis-after-success"
   },
   "devDependencies": {

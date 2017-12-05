@@ -1,12 +1,10 @@
-const globalKeys = require('./global-keys.json');
+const globals = require('./globals.json');
 
-const environments = Object.keys(globalKeys).reduce(
-  (keys, key) =>
-    Object.assign({}, keys, {
-      [key]: {
-        globals: Object.assign({ $: true }, globalKeys[key]),
-      },
-    }),
+const environments = Object.keys(globals).reduce(
+  (keys, key) => ({
+    ...keys,
+    [key]: { globals: globals[key] },
+  }),
   {},
 );
 
