@@ -3,8 +3,16 @@
   "version": "0.0.0-semantically-released",
   "description": "Mainly environment variables for Adobes Extendscript",
   "main": "dist/index.js",
-  "repository": "git@github.com:adambrgmn/eslint-plugin-extendscript.git",
   "author": "Adam Bergman <adam@fransvilhelm.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adambrgmn/eslint-plugin-extendscript.git"
+  },
+  "bugs": {
+    "url": "https://github.com/adambrgmn/eslint-plugin-extendscript/issues"
+  },
+  "homepage": "https://github.com/adambrgmn/eslint-plugin-extendscript#readme",
+  "files": ["dist"],
   "license": "MIT",
   "keywords": ["eslint", "eslintplugin"],
   "scripts": {
