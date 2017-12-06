@@ -9,5 +9,16 @@ const environments = Object.keys(globals).reduce(
 );
 
 module.exports = {
-  environments,
+  environments: {
+    extendscript: Object.keys(environments).reduce(
+      (acc, key) => ({
+        globals: {
+          ...acc.globals,
+          ...environments[key].globals,
+        },
+      }),
+      {},
+    ),
+    ...environments,
+  },
 };

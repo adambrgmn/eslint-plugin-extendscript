@@ -1,24 +1,60 @@
-// import { CLIEngine } from 'eslint';
+import { CLIEngine } from 'eslint';
+import plugin from './index';
 
-// const cli = new CLIEngine({
-//   useEslintrc: false,
-//   baseConfig: {
-//     extends: ['./index.js'],
-//     env: {
-//       'src/extendscript': true,
-//     },
-//   },
-// });
+const createCli = env => {
+  const cli = new CLIEngine({
+    useEslintrc: false,
+    baseConfig: {
+      extends: 'eslint:recommended',
+      plugins: ['extendscript'],
+      env,
+    },
+  });
+  cli.addPlugin('eslint-plugin-extendscript', plugin);
+  return cli;
+};
 
-// const lint = code => {
-//   const linter = cli.executeOnText(code);
-//   return linter.results[0];
-// };
+const lint = (code, cli) => {
+  const linter = cli.executeOnText(code);
+  return CLIEngine.getErrorResults(linter.results);
+};
 
-test('Config test', () => {
-  // const result = lint(`
-  //   $.writeLn('Hello world!);
-  // `);
+test('Separate environments', () => {
+  const cli = createCli({
+    'extendscript/base': true,
+    'extendscript/indesign': true,
+    'extendscript/illustrator': true,
+    'extendscript/photoshop': true,
+    'extendscript/scriptui': true,
+  });
 
-  expect(true).toBe(true);
+  const result = lint(
+    `
+    $.writeln('Hello world!');
+    new AlignOptions();
+    new Artboard();
+    new Channel();
+    new ScriptUI();
+  `,
+    cli,
+  );
+
+  expect(result).toEqual([]);
+});
+
+test('General environment', () => {
+  const cli = createCli({ 'extendscript/extendscript': true });
+
+  const result = lint(
+    `
+    $.writeln('Hello world!');
+    new Book();
+    new BlendModes();
+    new Direction();
+    new DropDownList();
+  `,
+    cli,
+  );
+
+  expect(result).toEqual([]);
 });
