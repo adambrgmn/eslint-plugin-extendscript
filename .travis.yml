@@ -5,7 +5,7 @@ cache:
 notifications:
   email: false
 node_js:
-  - '4'
+  - '8'
 script: npm run validate
 after_success: npm run travis-after-success
 branches:
