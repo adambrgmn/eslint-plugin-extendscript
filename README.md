@@ -1,12 +1,18 @@
 # Eslint Plugin ExtendScript
 
-> Add environmen globals for extendscript
+> Add environment globals for extendscript
+
+## Table of Contents
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+* [Installation](#installation)
+* [Setup](#setup)
+* [Contributions](#contributions)
 * [Contributors](#contributors)
+* [License](#license)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -18,7 +24,7 @@ with [node](https://nodejs.org/). Install it as one of your projects
 
 ```sh
 # with npm
-npm install --save-dev eslint-plugin-extendscript
+npm i --save-dev eslint-plugin-extendscript
 
 # or with yarn
 yarn add --dev eslint-plugin-extendscript
@@ -49,6 +55,16 @@ environments you like.
 If you don't know or want to work on all environments you can use the
 environment `"extendscript/extendscript"` instead. This will give you all
 environment globals form all the ExtendScript environments.
+
+```js
+{
+  "extends": "eslint:recommended", // or any other presets
+  "plugins": ["extendscript"],
+  "env": {
+    "extendscript/extendscript": true, // All available globals
+  }
+}
+```
 
 ## Contributions
 
