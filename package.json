@@ -6,9 +6,9 @@
   "repository": "git@github.com:adambrgmn/eslint-plugin-extendscript.git",
   "author": "Adam Bergman <adam@fransvilhelm.com>",
   "license": "MIT",
-  "keywords": ["eslint"],
+  "keywords": ["eslint", "eslintplugin"],
   "scripts": {
-    "build": "frans-scripts build",
+    "build": "frans-scripts build --ignore '*.test.js'",
     "test": "frans-scripts test",
     "lint": "frans-scripts lint",
     "format": "frans-scripts format",
