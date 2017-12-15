@@ -43,7 +43,7 @@ environments you like.
   "extends": "eslint:recommended", // or any other presets
   "plugins": ["extendscript"],
   "env": {
-    "extendscript/base": true, // Basic suite available in all ExtenScript environments
+    "extendscript/base": true, // Basic suite available in all ExtendScript environments
     "extendscript/scriptui": true, // ScriptUI globals
     "extendscript/indesign": true, // InDesign globals
     "extendscript/photoshop": true, // Photoshop globals
