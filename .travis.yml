@@ -1,13 +1,21 @@
 language: node_js
+
 cache:
+  yarn: true
   directories:
-    - ~/.npm
+    - node_modules
+
 notifications:
   email: false
+
 node_js:
   - '8'
-script: npm run validate
-after_success: npm run travis-after-success
+
+script: yarn run validate
+after_success: 
+  - npx codecov
+  - yarn run release
+
 branches:
   only:
     - master
