@@ -1,5 +1,5 @@
 import { CLIEngine } from 'eslint';
-import plugin from './index';
+import plugin from '../index';
 
 const createCli = env => {
   const cli = new CLIEngine({
@@ -39,7 +39,7 @@ test('Separate environments', () => {
     cli,
   );
 
-  expect(result).toEqual([]);
+  expect(result).toMatchSnapshot();
 });
 
 test('General environment', () => {
@@ -56,5 +56,17 @@ test('General environment', () => {
     cli,
   );
 
-  expect(result).toEqual([]);
+  expect(result).toMatchSnapshot();
+});
+
+test('Should not leak between environments', () => {
+  const cli = createCli({ 'extendscript/indesign': true });
+  const result = lint(
+    `
+    $.writeln('Hello world');
+  `,
+    cli,
+  );
+
+  expect(result).toMatchSnapshot();
 });

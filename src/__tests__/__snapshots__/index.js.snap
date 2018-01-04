@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`General environment 1`] = `Array []`;
+
+exports[`Separate environments 1`] = `Array []`;
+
+exports[`Should not leak between environments 1`] = `
+Array [
+  Object {
+    "errorCount": 1,
+    "filePath": "<text>",
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "messages": Array [
+      Object {
+        "column": 5,
+        "endColumn": 6,
+        "endLine": 2,
+        "line": 2,
+        "message": "'$' is not defined.",
+        "nodeType": "Identifier",
+        "ruleId": "no-undef",
+        "severity": 2,
+        "source": "    $.writeln('Hello world');",
+      },
+    ],
+    "source": "
+    $.writeln('Hello world');
+  ",
+    "warningCount": 0,
+  },
+]
+`;
