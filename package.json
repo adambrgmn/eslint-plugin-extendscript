@@ -16,21 +16,22 @@
   "license": "MIT",
   "keywords": ["eslint", "eslintplugin"],
   "scripts": {
-    "build": "frans-scripts build --ignore '*.test.js'",
+    "build": "frans-scripts build",
     "test": "frans-scripts test",
     "lint": "frans-scripts lint",
     "format": "frans-scripts format",
-    "validate": "frans-scripts validate",
     "add-contributor": "frans-scripts contributors add",
     "precommit": "frans-scripts precommit",
     "get-globals": "node scripts/get-extendscript-globals.js",
-    "travis-after-success": "frans-scripts travis-after-success"
+    "validate":
+      "yarn run lint && yarn run test --passWithNoTests --coverage && yarn run build",
+    "release": "frans-scripts release"
   },
   "devDependencies": {
     "cross-spawn": "^5.1.0",
     "cz-conventional-changelog": "^2.1.0",
     "eslint": "^4.12.1",
-    "frans-scripts": "^1.0.1",
+    "frans-scripts": "^2.0.2",
     "meow": "^4.0.0",
     "ora": "^1.3.0",
     "rimraf": "^2.6.2",
