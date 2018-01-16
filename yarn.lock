@@ -2551,9 +2551,9 @@ form-data@~2.3.1:
     combined-stream "^1.0.5"
     mime-types "^2.1.12"
 
-frans-scripts@^2.0.2:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/frans-scripts/-/frans-scripts-2.0.2.tgz#0d2fe0bcc3974e7b231671ce599b0506525c51fb"
+frans-scripts@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/frans-scripts/-/frans-scripts-2.1.1.tgz#91e883e9833b1dc506603c9f4bba6faf30bc7f64"
   dependencies:
     all-contributors-cli "^4.10.1"
     arrify "^1.0.1"
@@ -2593,7 +2593,7 @@ frans-scripts@^2.0.2:
     read-pkg-up "^3.0.0"
     resolve "^1.5.0"
     rimraf "^2.6.2"
-    rollup "^0.52.3"
+    rollup "^0.53.4"
     rollup-plugin-babel "^3.0.3"
     rollup-plugin-commonjs "^8.2.6"
     rollup-plugin-json "^2.3.0"
@@ -5522,9 +5522,9 @@ rollup-pluginutils@^2.0.1:
     estree-walker "^0.3.0"
     micromatch "^2.3.11"
 
-rollup@^0.52.3:
-  version "0.52.3"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-0.52.3.tgz#020d99fffe9619351e47b3894fd397c26f5e1bf6"
+rollup@^0.53.4:
+  version "0.53.4"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-0.53.4.tgz#f92ce56ee1d097ad5b6f13951bc80db5fef18113"
 
 run-async@^2.2.0:
   version "2.3.0"
