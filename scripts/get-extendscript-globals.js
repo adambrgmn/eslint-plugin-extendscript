@@ -21,39 +21,34 @@ const reduceToName = arr =>
     return { ...acc, ...properties, ...methods };
   }, {});
 
+const toLower = a => a.toLowerCase();
+const compare = (a, b) => a.localeCompare(b);
 const sortObj = obj =>
-  Object.keys(obj)
-    .sort((a, b) => a.toLowerCase().localeCompare(b.toLowerCase()))
-    .reduce((acc, key) => ({ ...acc, [key]: obj[key] }), {});
+  Object.entries(obj)
+    .sort(([a], [b]) => compare(toLower(a), toLower(b)))
+    .reduce((acc, [key, value]) => ({ ...acc, [key]: value }), {});
 
 const staticJsGlobals = {
-  // Fetched from $.global in Extendscript Tools and filtered
+  // Fetched from $.global in Extendscript Tools
   app: false,
   apps: false,
   AvailabilityCheckOptions: false,
   bridge: false,
-  contextMenu: false,
-  document: false,
   illustrator: false,
   indesign: false,
-  key: false,
-  keys: false,
-  menuItemInfo: false,
   menuTextOrder: false,
   photoshop: false,
-  placeLinkCmd: false,
-  subMenu: false,
-  subMenuBrush: false,
-  subMenuGraphic: false,
-  subMenuSwatch: false,
-  subMenuSymbol: false,
-  tempPSVersionInfo: false,
 };
 
 async function main() {
-  const spinner = ora('Generating data from xml').start();
+  const spinner = ora();
 
   try {
+    /**
+     * This is the main scripting directory root where most of the Extendscript
+     * dictionaries are found (for some reason InDesign dictionaries are located
+     * elsewhere)
+     */
     const scriptingDir = path.join(
       '/Library',
       'Application Support',
@@ -62,7 +57,13 @@ async function main() {
     );
 
     const paths = {
+      // General globals available inside all Extendscript environments
       base: path.join(scriptingDir, 'CommonFiles', 'javascript.xml'),
+      /**
+       * Indesign envrinoment. These files are located elsewhere and a bit
+       * oddly named. Needs to be double chekced to see that the latest one
+       * is used.
+       */
       indesign: path.join(
         process.env.HOME,
         '/Library',
@@ -76,12 +77,29 @@ async function main() {
       scriptui: path.join(scriptingDir, 'CommonFiles', 'scriptui.xml'),
     };
 
-    const parsedXml = await Promise.all(
-      Object.keys(paths).map(async key => {
+    /**
+     * Try reading all files content. But ignore any errors
+     */
+    spinner.start('Reading files');
+    const files = await Promise.all(
+      Object.entries(paths).map(async ([key, p]) => {
         try {
-          const p = paths[key];
-          const xml = await readFile(p, 'utf8');
-          const parsed = await parseString(xml);
+          const content = await readFile(p, 'utf8');
+          return [key, content];
+        } catch (err) {
+          return null;
+        }
+      }),
+    );
+
+    /**
+     * Parse the content xml into large objects, ignore any errors.
+     */
+    spinner.succeed().start('Parsing XML');
+    const parsedXml = await Promise.all(
+      files.filter(Boolean).map(async ([key, content]) => {
+        try {
+          const parsed = await parseString(content);
           return [key, parsed];
         } catch (err) {
           return null;
@@ -89,8 +107,12 @@ async function main() {
       }),
     );
 
-    const globals = parsedXml.filter(Boolean).reduce((acc, [key, x]) => {
-      const { classdef } = x.dictionary.package[0];
+    /**
+     * Reduce the JSON tree into the final JSON tree
+     */
+    spinner.succeed().start('Extracting globals');
+    const globals = parsedXml.filter(Boolean).reduce((acc, [key, xml]) => {
+      const { classdef } = xml.dictionary.package[0];
       const keys = reduceToName(classdef);
 
       if (key === 'base') {
@@ -110,13 +132,14 @@ async function main() {
       };
     }, {});
 
+    spinner.succeed().start('Updating src/globals.json');
     await writeFile(
       path.join(__dirname, '..', 'src', 'globals.json'),
       JSON.stringify({ ...existingGlobals, ...globals }, null, 2),
       'utf8',
     );
 
-    spinner.succeed('Done!');
+    spinner.succeed();
   } catch (err) {
     spinner.fail(err.message);
   }
